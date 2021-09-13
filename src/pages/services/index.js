@@ -32,28 +32,35 @@ const services = () => {
                             <p>Projeto Arquitetônico</p>
                             <p>Projeto de Interiores</p>
                             <p>Projeto de Reforma</p>
-                            <a href="http:/Servicos/Arquitetura"> E mais! </a>
+                            <a href="http:/Servicos-Arquitetura"> E mais! </a>
                         </div>
                         <div className="servicesCard">
-                            <h2>Engenharia de Computação</h2>
+                            <h2>Desenvolvimento e Tecnologia</h2>
                             <p>Sites em geral</p>
                             <p>E-commerce</p>
                             <p>Aplicativos</p>
-                            <a href="http:/Servicos/Computacao"> E mais! </a>
+                            <a href="http:/Servicos-Computacao"> E mais! </a>
                         </div>
                         <div className="servicesCard">
-                            <h2>Engenharia Elétrica</h2>
+                            <h2>Soluções elétricas</h2>
                             <p>Eficiência energética</p>
                             <p>Analise Tarifária</p>
                             <p>Projeto elétrico</p>
-                            <a href="http:/Servicos/Eletrica"> E mais! </a>
+                            <a href="http:/Servicos-Eletrica"> E mais! </a>
                         </div>
                         <div className="servicesCard">
-                            <h2>Eng. de Controle e Automação</h2>
-                            <p>Bussines Inteligence</p>
-                            <p>Controle de Acesso e Fechaduras Eletrônicas</p>
+                            <h2>Gestão de Negócios</h2>
+                            <p>Fluxo de Caixa</p>
+                            <p>Dashboard de vendas</p>
+                            <p>Planejamento Financeiro</p>
+                            <a href="http:/Servicos-Negocios"> E mais! </a>
+                        </div>
+                        <div className="servicesCard">
+                            <h2>Máquinas e Equipamentos</h2>
+                            <p>Montagem de PCs</p>
+                            <p>Controle de acesso</p>
                             <p>Automação de Ambientes</p>
-                            <a href="http:/Servicos/Automacao"> E mais! </a>
+                            <a href="http:/Servicos-Automacao"> E mais! </a>
                         </div>
                     </div>
                 </section>

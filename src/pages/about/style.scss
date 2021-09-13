@@ -36,6 +36,12 @@
         flex-direction: column;
         align-items: left;
         width: 100%;
+
+        #callToActionMembers {
+
+            z-index: 999;
+
+        }
     }
 
     .heroImgWrapper {
@@ -116,7 +122,6 @@
 }
 
 #sectionWhoWeAre {
-    
 
     .MVV {
         display: flex;
@@ -289,16 +294,139 @@
     }
 }
 
-#customerFeedback {
+#membersTestimonial {
 
     display: flex;
-    position: relative;
+    flex-direction: column;
     width: 100vw;
-    min-height: 100vh;
+    height: auto;
     justify-content: center;
     align-items: center;
-    background-color: #2196f3;
     overflow: hidden;
+
+    #textIntroTestimonial {
+
+            color: $roxo;
+            font-size: 4em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            text-align: left;
+            z-index: 1;
+    
+            animation: glitch1 2s infinite;
+    
+            &::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            inset: 0 0 0 0;
+            background: #d4d4d4;
+            
+            z-index: -1;
+            transition: transform .3s ease;
+          }
+          
+        &::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+    
+        &:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+        
+    }
+
+    .membersCardTestimonialWrapper{
+
+        display: flex;
+        height: 1000px;
+        width: 100%;
+        justify-content: space-around;
+
+        .membersCardTestimonial {
+
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            height: 85%;
+            border-radius: 15px;
+            background: rgb(104,12,126);
+            background: linear-gradient(0deg, rgba(104,12,126,1) 0%, rgba(85,0,143,1) 100%);
+
+            .membersTestimonialInfos {
+
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: auto;
+                padding: 1rem 0;
+    
+                .imageTestimonialWrapper {
+    
+                    display: flex;
+                    // position: absolute;
+                    width: 100px;
+                    height: 100px;
+                    margin-left: 1rem;
+
+                    img {
+
+                        height: auto;
+                        width: auto;
+                        border-radius: 100px;
+                        -webkit-user-drag: none;
+  
+                    }
+    
+                }
+
+                .testimonialMemberInfo {
+
+                    margin-left: 2rem;
+
+                    h1 {
+
+                        font-weight: 400;
+                        color: white;
+
+                    }
+
+                    h4{
+
+                        font-weight: 500;
+                        color: $amarelo;
+
+                    }
+
+                }
+                
+            }
+
+            .testimonialTextWrapper {
+
+                display: flex;
+                width: 100%;
+                height: auto;
+                // align-self: center;
+
+                p {
+
+                    padding: 1rem;
+                    text-align: justify;
+
+                }
+    
+            }
+            
+        }
+        
+    }
 
 }
 
