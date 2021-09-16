@@ -1,0 +1,165 @@
+@import "../../../global.scss";
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $preto;
+
+}
+
+#eletricaPage {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 0 2em 0 2em;
+
+    .eletricaTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 95vw;
+        height: 50vh;
+        border-radius: 20px;
+        background-image: url(../../../imgs/arqFundo2.png);
+        background-size: cover;
+
+        h1 {
+            font-size: 3em;
+            color: $amarelo;
+            animation: glitch1 2s infinite;
+        }
+    
+        h1::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            inset: 0 0 0 0;
+            background: $preto;
+            z-index: -1;
+            transition: transform .3s ease;
+          }
+          
+        h1::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+    
+        h1:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        p {
+            text-align: center;
+            margin-left: 1rem;
+            color: $amarelo;
+            font-size: 1.5rem;
+            animation: glitch1 2s infinite;
+        }
+    
+        p::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            inset: 0 0 0 0;
+            background: $preto;
+            z-index: -1;
+            transition: transform .3s ease;
+          }
+          
+        p::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+    
+        p:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+    }
+
+    .eletricaServices {
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+
+        .service1 {
+            
+            display: flex;
+            flex-direction: column;
+            width: 80vw;
+            padding: 1rem;
+
+            h1, p {
+                color: $amarelo;
+            }
+
+            p {
+                text-align: justify;
+                text-indent: 2em;
+            }
+        }
+    }
+
+    .eletricaPortf {
+
+        width: 80vw;
+        background-color: $roxo;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+            margin: 1em 0 1em 0;
+            color: $amarelo;
+            animation: glitch1 2s infinite;
+        }
+    
+        h1::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            inset: 0 0 0 0;
+            background: $preto;
+            z-index: -1;
+            transition: transform .3s ease;
+          }
+          
+        h1::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+    
+        h1:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+        
+        .portfolio1 {
+            margin: 1rem;
+            img {
+                margin: auto;
+            }
+    
+            p {
+                text-align: center;
+                color: $amarelo;
+            }
+        }
+
+    }
+}
