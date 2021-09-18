@@ -77,6 +77,14 @@ const computacao = () => {
                         </Slider>
                     </div>
 
+                    <div className="otherProjects">
+                        <h1> Veja nossos outros serviços! </h1>
+                        <a href="http:/Servicos-Automacao"> Máquinas e Equipamentos </a>
+                        <a href="http:/Servicos-Arquitetura"> Arquitetura e Urbanismo </a>
+                        <a href="http:/Servicos-Eletrica"> Soluções Elétricas </a>
+                        <a href="http:/Servicos-Negocios"> Gestão de Negócios </a>
+                    </div>
+
                 </section>
                 <WhatsappButton />
             <Footer />

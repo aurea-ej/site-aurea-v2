@@ -27,7 +27,7 @@
         width: 95vw;
         height: 50vh;
         border-radius: 20px;
-        background-image: url(../../../imgs/arqFundo2.png);
+        background-image: url(../../../imgs/autoFundo2.png);
         background-size: cover;
 
         h1 {
@@ -161,5 +161,59 @@
             }
         }
 
+    }
+
+    .otherProjects {
+
+        padding: 0.5em;
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+            margin: 1em 0 1em 0;
+            color: $amarelo;
+            animation: glitch1 2s infinite;
+        }
+    
+        h1::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 0; right: 0; bottom: 0; left: 0;
+            inset: 0 0 0 0;
+            background: $roxo;
+            z-index: -1;
+            transition: transform .3s ease;
+          }
+          
+        h1::before {
+            transform: scaleX(0);
+            transform-origin: bottom right;
+        }
+    
+        h1:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+        a {
+            background-color: $amarelo;
+            color: $roxo;
+            margin-left: 1em;
+            padding: 0.5em;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        a:hover {
+            background-color: $branco;
+        }
+
+        a:active {
+            background-color: $roxo;
+            transition: all 0.1s;
+            color: $amarelo;
+        }
     }
 }

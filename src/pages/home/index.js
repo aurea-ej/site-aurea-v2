@@ -80,27 +80,36 @@ function Home(){
                             <div className="sectorServicearq">
                                 <h2> Arquitetura e Urbanismo </h2>
                                 <h3> Projetando o melhor para sua vida </h3>
-
+                                <a href="http:/Servicos-Arquitetura"> Veja os serviços! </a>
                             </div>
 
                             <div className="sectorServicecomp">
-                                <h2> Engenharia de Computação </h2>
+                                <h2> Desenvolvimento e Tecnologia </h2>
                                 <h3> O impacto da tecnologia na sua vida </h3>
-
+                                <a href="http:/Servicos-Computacao"> Veja os serviços! </a>
                             </div>
 
                             <div className="sectorServiceele">
-                                <h2> Engenharia Elétrica </h2>
+                                <h2> Soluções Elétricas </h2>
                                 <h3> Economizando para você e para o planeta </h3>
-
+                                <a href="http:/Servicos-Eletrica"> Veja os serviços! </a>
                             </div>
 
                             <div className="sectorServiceauto">
-                                <h2> Engenharia de Controle e Automação </h2>
+                                <h2> Máquinas e Equipamentos </h2>
                                 <h3> Facilitando a sua vida </h3>
-
+                                <a href="http:/Servicos-Automacao"> Veja os serviços! </a>
                             </div>
+
+                            <div className="sectorServicenegoc">
+                                <h2> Gestão de Negócios </h2>
+                                <h3> Facilitando a sua vida </h3>
+                                <a href="http:/Servicos-Negocios"> Veja os serviços! </a>
+                            </div>
+
+                            <a href="http:/Servicos"> Conheça todos os nossos serviços </a>
                         </div>
+
 
                     </div>
                     

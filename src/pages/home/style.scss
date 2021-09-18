@@ -340,7 +340,26 @@
         background-color: $roxo;
         width: 30vw;
         height: 20vh;
-        background-image: url(../../imgs/autoFundo.png);
+        background-image: url(../../imgs/autoFundo2.png);
+        background-size: cover;
+        transition: all 0.5s;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 5px;
+
+    }
+
+    .sectorServicenegoc {
+
+        margin: 20px;
+        text-align: center;
+        background-color: $roxo;
+        width: 30vw;
+        height: 20vh;
+        background-image: url(../../imgs/negocFundo.png);
         background-size: cover;
         transition: all 0.5s;
         cursor: pointer;
@@ -387,9 +406,36 @@
         }
     }
 
+    .sectorServicenegoc:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        h2, h3 {
+            opacity: 1;
+        }
+    }
+
     .rowObjects {
         display: flex;
         flex-direction: row;
+
+        a {
+            background-color: $amarelo;
+            margin-top: 1em;
+            color: $roxo;
+            padding: 0.5em;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        a:hover {
+            background-color: $branco;
+        }
+
+        a:active {
+            background-color: $preto;
+            transition: all 0.1s;
+        }
     }
 
 }
