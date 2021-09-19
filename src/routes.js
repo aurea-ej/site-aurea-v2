@@ -11,6 +11,8 @@ import Computacao from './pages/services/computacao'
 import Eletrica from './pages/services/eletrica'
 import Negocios from './pages/services/negocios'
 import Members from './pages/members'
+import BlogAdm from './pages/blogAdmin'
+import Blog from './pages/blog'
 
 const Routes = () => {
 
@@ -28,6 +30,8 @@ const Routes = () => {
             <Route component={Eletrica} path='/Servicos-Eletrica'/>
             <Route component={Negocios} path='/Servicos-Negocios'/>
             <Route component={Members} path='/membros'/>
+            <Route component={BlogAdm} path='/Blog-Aurea-Admin'/>
+            <Route component={Blog} path='/Blog'/>
 
         </BrowserRouter>
 

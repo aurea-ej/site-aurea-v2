@@ -1,15 +1,15 @@
 import { React, useEffect, useState } from 'react'
-import Header from '../../components/header/header'
-import Footer from '../../components/footer/footer'
+import Header from '../../components/header'
+import Footer from '../../components/footer'
 
-import firebase from 'firebase/app'
-import "firebase/firestore";
-import "firebase/database";
-import firebaseConfig from '../../FIREBASECONFIG.js'
+import firebase from 'firebase/compat/app'
+import "firebase/compat/firestore";
+import "firebase/compat/database";
+import firebaseConfig from '../../FirebaseConfig.js'
 
 import aviaoAureaVertical from '../../imgs/aviaoAurea.png'
 
-import './style.css';
+import './style.scss';
 
 export default function InfoCourses() {
 
@@ -27,18 +27,23 @@ export default function InfoCourses() {
         if(!firebase.apps.length)
             firebase.initializeApp(firebaseConfig);
 
-        firebase.database().ref('posts').get('/posts')
-        .then(function(snapshot) {
+            var firebaseRef = firebase.database().ref('posts/');
+            firebaseRef.on('value', (snapshot) => {
 
-            if (snapshot.exists()){
+            if (snapshot.exists()) {
+
                 setDataBlogExists(true)
                 var data = snapshot.val()
                 var temp = Object.keys(data).map((key) => data[key])
                 setDataBlog(temp.reverse())
-                // console.log(temp[0])
+
             }
-            else
+
+            else {
+
                 setDataBlogExists(false)
+
+            }
         })
 
     }, []);
@@ -47,13 +52,13 @@ export default function InfoCourses() {
 
         return (
 
-            <div id='Blog' >
+            <section id='Blog' >
 
                 <Header />
 
                 <main id='mainBlog'>
 
-                    <h1>Bem vindos ao Blog Aureano 💛 </h1> <h3>v0.1 Beta</h3>
+                    <h1>Bem-vindos ao Blog Aureano 💛 </h1> <h3>v0.1 Beta</h3>
 
                     {dataBlog.map((item)=> (
 
@@ -88,7 +93,7 @@ export default function InfoCourses() {
                 
                 <Footer />
 
-            </div>
+            </section>
         )
         
     }else{
@@ -111,7 +116,7 @@ export default function InfoCourses() {
 
                         <div className='warning' >
 
-                            <p>Em construção </p>
+                            <p>Carregando </p>
 
                         </div>
 
@@ -122,10 +127,7 @@ export default function InfoCourses() {
                         <p>Enquanto isso, acesse nosso <a href = 'https://www.linkedin.com/company/aureaej/posts/?feedView=all' target='_blank' >Linkedin</a> e veja os últimos posts</p>
 
                     </div>
-                    <sectio>
-
-                    </sectio>
-
+                    
                 </main>
                 
                 <Footer />
