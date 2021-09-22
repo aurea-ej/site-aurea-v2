@@ -18,7 +18,7 @@ const arquitetura = () => {
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: "60px",
+        centerPadding: "10px",
         slidesToShow: 1,
         speed: 500,
         adaptiveHeight: true

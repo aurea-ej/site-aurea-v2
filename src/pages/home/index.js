@@ -192,12 +192,13 @@ function Home(){
 
                     <h1> Nossos parceiros </h1>
                     <p> São nossa base e nosso maior orgulho, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    
                     <div className="partnersCardsWrapper">
 
                         <div className="partnersCards">
                             
                             <div className="partnersImgWrapper">
-                                <img src={RJ} alt="RioJunior"/>
+                                <a href='http://www.riojunior.com.br/' target='_blank' rel="noreferrer"> <img src={RJ} alt="RioJunior"/> </a>
                             </div>
 
                             <div className="partnersText">
@@ -212,7 +213,8 @@ function Home(){
                         <div className="partnersCards">
 
                             <div className="partnersImgWrapper">
-                                <img src={BJ} alt="Brasil Júnior"/>
+                                <a href='https://brasiljunior.org.br/' target='_blank' rel="noreferrer">  <img src={BJ} alt="Brasil Júnior"/> </a>
+
                             </div>
 
                             <div className="partnersText">
@@ -227,7 +229,7 @@ function Home(){
                         <div className="partnersCards">
 
                             <div className="partnersImgWrapper">
-                                <img src={MOTIM} alt="Motim"/>
+                                <a href='https://www.motim.me/' target='_blank' rel="noreferrer"> <img src={MOTIM} alt="Motim"/> </a>
                             </div>
 
                             <div className="partnersText">
@@ -242,7 +244,7 @@ function Home(){
                         <div className="partnersCards">
 
                             <div className="partnersImgWrapper">
-                                <img src={IFF} alt="Instituto Federal Fluminense"/>
+                                <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target='_blank' rel="noreferrer"> <img src={IFF} alt="Instituto Federal Fluminense"/> </a>
                             </div>
 
                             <div className="partnersText">
@@ -257,12 +259,12 @@ function Home(){
                         <div className="partnersCards">
 
                             <div className="partnersImgWrapper">
-                                <img src={logoEmbrapii} alt="Instituto Federal Fluminense"/>
+                                <a href='https://embrapii.org.br' target='_blank' rel="noreferrer"> <img src={logoEmbrapii} alt="Instituto Federal Fluminense"/> </a>
                             </div>
 
                             <div className="partnersText">
 
-                                <h2> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank" rel="noreferrer">Polo de inovação / Embrapii</a>  </h2>
+                                <h2> <a href='https://embrapii.org.br' target="_blank" rel="noreferrer">Polo de inovação / Embrapii</a>  </h2>
                                 <p> Organização bla bla bla </p>
 
                             </div>

@@ -129,6 +129,7 @@
 #sectionWhoWeAre {
 
     .MVV {
+
         display: flex;
         width: 100%;
         justify-content: center;
@@ -473,5 +474,235 @@
     }
 
 }
+
+@media screen and (max-width: 768px) {
+
+    #heroSectionAbout {
+
+        width: auto;
+        overflow-x: hidden;
+
+        .rowObjects {
+
+            margin: 0 auto;
+
+            .collumnObjects {
+
+                // background-color: red;
+                display: flex;
+                margin: 0;
+                padding: 0;
+                width: auto;
+                align-items: center;
+                justify-content: center;
+
+                h1 {
+                    font-size: 2em;
+                    margin-left: 0;
+                    width: 80vw;
+                    background-color: #d4d4d4;
+                }
+
+                p {
+
+                    width: 100%;
+                    line-height: 1.4rem;
+                    // text-align: justify;
+
+                }
+                
+            }
+
+            .heroImgWrapper {
+
+                display: none;
+                justify-content: center;
+                align-items: center;
+                width: 20vw;
+                height: 80vh;
+                // background-color: blue;
+
+                img {
+
+                    // display: none;
+                    object-fit: contain;
+                    height: 90vh;
+                    width: auto;
+                    -webkit-user-drag: none;
+
+                }
+
+            }
+
+            .callToActionMembers {
+    
+                width: 70%;
+                text-align: center;
+                margin: 0;
+                text-indent: 0;
+
+                a {
+
+                    font-size: 1.1rem;
+
+                }
+    
+            }
+        }
+
+    }
+
+    #sectionWhoWeAre {
+
+        margin-top: 2rem;
+
+        .MVV {
+            
+            width: auto;
+    
+            p {
+               
+                width: auto;
+
+            }
+        }
+
+        .missionValuesEyesight {
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 4vh 0 10vh 0;
+            width: 100vw;
+    
+            .cardM, .cardV1, .cardV2{
+
+                width: 70vw;
+                height: 25vh;
+                margin-bottom: 3rem;
+
+            }
+
+            .cardV2 {
+
+                margin-bottom: 0;
+
+            }
+        }
+    }
+
+    #membersTestimonial {
+
+        width: auto;
+    
+        #textIntroTestimonial {
+    
+        font-size: 2em;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        text-align: left;
+        z-index: 1;
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+        align-self: center;
+
+    }
+    
+        .membersCardTestimonialWrapper{
+    
+            .membersCardTestimonial {
+    
+                .membersTestimonialInfos {
+    
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    height: auto;
+                    padding: 1rem 0 0 0;
+                    margin-top: 2rem;
+        
+                    .imageTestimonialWrapper {
+        
+                        display: flex;
+                        width: 100px;
+                        height: 100px;
+                        margin-left: 1rem;
+    
+                        img {
+    
+                            height: auto;
+                            width: auto;
+                            border-radius: 100px;
+                            -webkit-user-drag: none;
+      
+                        }
+        
+                    }
+    
+                    .testimonialMemberInfo {
+    
+                        display: flex;
+                        flex-direction: row;
+                        margin-left: 2rem;
+                        width: 100%;
+    
+                        .testimonialMembersTextInfos {
+    
+                            h1 {
+    
+                                font-weight: 400;
+                                font-size: 2rem;
+                                color: $branco;
+    
+                            }
+    
+                            h4{
+    
+                                font-weight: 500;
+                                font-size: 1.2rem;
+                                color: $amarelo;
+    
+                            }
+
+                        }
+    
+                        .testimonialImageWrapper {
+                            
+                            right: 0rem;
+                            top: -3rem;
+
+                            // mudar essa paspalhada de imagem aqui
+                                
+                        }
+    
+                    }
+                    
+                }
+    
+                .testimonialTextWrapper {
+    
+                    display: flex;
+                    width: 100%;
+                    height: auto;
+                    // align-self: center;
+    
+                    p {
+    
+                        padding: 1rem;
+                        text-align: justify;
+                        line-height: 1.4rem;
+    
+                    }
+        
+                }
+                
+            }
+            
+        }
+    
+    }
+    
+}
+
 
     

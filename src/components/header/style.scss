@@ -184,45 +184,31 @@ header.active {
     .menu-mobile {
 
         width: 100vw;
-        height: 60px;
         display: none;
         align-items: center;
         justify-content: center;
-        background-color: #000;
 
     }
 
     .menu-mobile ul {
 
-        margin: 0;
-        padding: 0;
-        width: 90%;
+        margin-top: 8rem;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: right;
         list-style: none;
-        font-size: 9pt;
-        color: #FFF;
 
-    }
+        a {
+            color: $branco;
+            text-decoration: none;
+            margin: 0 0 0.5em 0;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            padding: .5rem 1rem;
+        }
 
-    .menu-mobile li {
-
-        cursor: pointer;
-        color: #FFF;
-
-    }
-
-    .menu-mobile a {
-
-        text-decoration: none;
-        color: #FFF;
-
-    }
-
-    .menu-mobile a:hover {
-
-        color: #DBB826;
-    
     }
 
 }

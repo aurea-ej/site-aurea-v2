@@ -26,7 +26,6 @@
     
         h1 {
 
-            text-align: left;
             margin-left: 3rem;
             width: 60vw;
             text-align: center;
@@ -163,7 +162,6 @@
     }
 }
 
-
 .caminhoAviao{
 
     border-radius: 150px;
@@ -291,33 +289,56 @@
 
 @media screen and (max-width: 768px) {
 
-    #mainBlog h1 {
+    #Blog {
 
-        font-size: 14pt;
+        width: auto;
+        align-items: center;
 
-    }
+        #mainBlog {
 
-    .postDiv h3 {
+            h1 {
 
-        width: 60%;
-        padding: 10px;
-        font-size: 18pt;
-        text-align: center;
+                text-align: center;
+                width: auto;
+                color: $roxo;
+                margin-top: 5vh;
+                margin-left: 0.5em;
+                font-size: 1.6rem;
+                background-color: #d4d4d4;
+                padding: 0;
+        
+            }
 
-    }
+        }
 
-    .postDiv h5 {
+        .postDiv {
 
-        font-size: 11pt;
-        text-indent: 2em;
-        text-align: justify;
+            width: auto;
 
-    }
+            h3 {
+
+                width: 80%;
+                font-size: 1.5em;
+
+            }
+
+            h5{
+
+                // font-size: 12pt;
+                // max-width: 100%;
+                // margin: 0;
+
+                //pq n consigo mdaaaaaaaaaaaar
+            
+            }
+
+            img{
+
+                min-width: 70%;
+                max-width: 90%;
     
-    .postDiv img{
+            }
 
-    max-width: 80%;
-
-}
-    
+        }    
+    }
 }

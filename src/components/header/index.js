@@ -114,7 +114,7 @@ export default function Header(props) {
 
         <div>
 
-            <div className='merdaDeHeaderDoCacete'>
+            <div className='mainHeader'>
                 <header className={header ? 'header active' : 'header'}>
 
                     <div className='logo' >
@@ -125,44 +125,11 @@ export default function Header(props) {
 
                     <div className='menu' >
 
-                        {/* {isAdmin ?
-
-                            <>
-
-                                <ul>
-
-                                    <li> <Link to='/' > Início </Link> </li>
-                                    <li> <Link to='/Quem-somos-nos'> Quem Somos </Link> </li>
-                                    <li> <a href='/Servicos'> Serviços </a> </li>
-                                    <li> <Link to='/Contato'> Contato </Link> </li>
-                                    <li> <Link to='/Blog-Aurea-Admin'> Fazer post </Link> </li>
-                                    <li> <Link to='/Blog'> Blog </Link> </li>
-
-                                </ul>
-
-                            </>
-
-                            :
-
-                            <>
-                                <ul>
-
-                                    <li> <Link to='/' > Início </Link> </li>
-                                    <li> <Link to='/Quem-somos-nos'> Quem Somos </Link> </li>
-                                    <li> <a href='/Servicos'> Serviços </a> </li>
-                                    <li> <Link to='/Contato'> Contato </Link> </li>
-                                    <li> <Link to='/Blog'> Blog </Link> </li>
-
-                                </ul>
-                            </>
-
-                        } */}
-
                         <ul>
 
                             <li> <Link to='/' > Início </Link> </li>
                             <li> <Link to='/Quem-somos-nos'> Quem Somos </Link> </li>
-                            <li> <a href='/Servicos'> Serviços </a> </li>
+                            <li> <Link to='/Servicos'> Serviços </Link> </li>
                             <li> <Link to='/Contato'> Contato </Link> </li>
                             <li> <Link to='/Blog'> Blog </Link> </li>
 
@@ -176,6 +143,7 @@ export default function Header(props) {
 
                             setIsChecked(!isChecked);
                             showMenuMobile()
+                            window.scrollTo(0, 0)
 
                         }} />
 
@@ -195,11 +163,11 @@ export default function Header(props) {
 
                     <ul>
 
-                        <li> <Link to='/' > Início </Link> </li>
-                        <li> <Link to='/Quem-somos-nos'> Quem Somos </Link> </li>
-                        <li> <Link to='/#services'> Serviços </Link> </li>
-                        <li> <Link to='/Contato'> Contato </Link> </li>
-                        <li> <Link to='/Blog'> Blog </Link> </li>
+                        <a href="/"> Início </a>
+                        <a href="/Quem-somos-nos"> Quem Somos </a>
+                        <a href="/Servicos"> Serviços </a>
+                        <a href="/Contato"> Contato </a>
+                        <a href="/Blog"> Blog </a>
 
                     </ul>
 

@@ -217,3 +217,59 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    #body {
+        overflow-x: hidden;
+
+        #computacaoPage {
+            .computacaoTitle {
+                h1 {
+                    font-size: 1.6em;
+                    margin-left: 0;
+                    width: 80vw;
+                    text-align: center;
+                    background-color: $preto;
+                }
+        
+                p {
+                    font-size: 1em;
+                    text-align: center;
+                    background-color: $preto;
+                }
+            }
+
+            .computacaoServices {
+                .service1 {
+                    h1 {
+                        font-size: 1.6em;
+                        margin-left: 0;
+                        width: 80vw;
+                    }
+            
+                    p {
+                        font-size: 1.1em;
+                    }
+                }
+            }
+
+            .computacaoPortf {
+                h1 {
+                    font-size: 1.6em;
+                    margin-left: 0;
+                    width: 80vw;
+                }
+            }
+
+            .otherProjects {
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    margin-left: 0;
+                    margin-top: 0.5em;
+                }
+            }
+        }
+    }
+}

@@ -59,7 +59,6 @@
 
         p {
             text-align: center;
-            margin-left: 1rem;
             color: $branco;
             font-size: 1.5rem;
             animation: glitch1 2s infinite;
@@ -214,6 +213,62 @@
             background-color: $roxo;
             transition: all 0.1s;
             color: $amarelo;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #body {
+        overflow-x: hidden;
+
+        #negociosPage {
+            .negociosTitle {
+                h1 {
+                    font-size: 1.6em;
+                    margin-left: 0;
+                    width: 80vw;
+                    text-align: center;
+                    background-color: $preto;
+                }
+        
+                p {
+                    font-size: 1em;
+                    text-align: center;
+                    background-color: $preto;
+                }
+            }
+
+            .negociosServices {
+                .service1 {
+                    h1 {
+                        font-size: 1.6em;
+                        margin-left: 0;
+                        width: 80vw;
+                    }
+            
+                    p {
+                        font-size: 1.1em;
+                    }
+                }
+            }
+
+            .negociosPortf {
+                h1 {
+                    font-size: 1.6em;
+                    margin-left: 0;
+                    width: 80vw;
+                }
+            }
+
+            .otherProjects {
+                display: flex;
+                flex-direction: column;
+
+                a {
+                    margin-left: 0;
+                    margin-top: 0.5em;
+                }
+            }
         }
     }
 }

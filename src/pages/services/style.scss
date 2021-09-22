@@ -164,3 +164,46 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    #body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $preto;
+        overflow-x: hidden;
+    }
+
+    #servicesPage {
+        .headServices {
+            img {
+                display: none;
+            }
+
+            .textHeadServices {
+                h1 {
+                    font-size: 1.6em;
+                    margin-left: 0;
+                    width: 80vw;
+                    background-color: #d4d4d4;
+                }
+        
+                p {
+                    font-size: 1em;
+                    width: 80vw;
+                }
+            }
+        }
+
+        .servicesBlock {
+            display: flex;
+            flex-direction: column;
+
+            .servicesCard {
+                width: 80vw;
+                margin: 1em 0 1em 0;
+            }
+        }
+    }
+}

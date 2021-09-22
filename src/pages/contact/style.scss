@@ -152,3 +152,51 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    #contactMain {
+        width: 80vw;
+
+        h2 {
+            font-size: 1.6em;
+            margin-left: 0;
+            background-color: #d4d4d4;
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+        .contact-form {
+            input, textarea {
+                width: 80vw;
+            }
+
+            .leftAlign {
+                display: flex;
+                align-items: space-between;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 5px 0px 5px 0px;
+                width: 80vw;
+                border-radius: 5px;
+                color: $preto;
+                font-weight: bold;
+                border: none;
+
+                select {
+                    width: 80vw;
+                }
+            }
+
+            .buttonsFormRegister {
+                width: 80vw;
+
+                input {
+                    width: 80vw;
+                }
+            }
+        }
+    }
+}
