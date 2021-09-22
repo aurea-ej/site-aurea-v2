@@ -32,14 +32,14 @@ export default function BlogAdm() {
     const [dataAdm, setDataAdm] = useState([{}])
     const [dataKeysAdm, setDataKeysAdm] = useState([])
     const [selectItemToDelete, setSelectItemToDelete] = useState('')
-    const [paragraph, setParagraph] = useState([])
+/*     const [paragraph, setParagraph] = useState([]) */
     const [paragraphs, setParagraphs] = useState([])
-    const [paragraphsAmount, setParagraphsAmount] = useState(0)
+/*     const [paragraphsAmount, setParagraphsAmount] = useState(0) */
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [haveLogIn, setHaveLogIn] = useState(false)
     const [imageUrl, setImageUrl] = useState('')
-    const [userIsLogged, setUserIsLogged] = useState(false);
+/*     const [userIsLogged, setUserIsLogged] = useState(false); */
     // const [needUpdatePage, setNeedUpdatePage] = useState(false)
 
     //  const [loginData,setLoginData] = useState({

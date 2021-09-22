@@ -1,19 +1,15 @@
-import React, { useState, createRef, useEffect } from 'react'
+import React, { useState, createRef } from 'react'
 import { Link } from "react-router-dom";
 
 import './style.scss'
 
 import logoAurea from '../../imgs/logoHeader1.png'
 
-import firebase from 'firebase/compat/app'
 import 'firebase/compat/auth'
-import firebaseConfig from '../../FirebaseConfig.js'
 
 export default function Header(props) {
 
     const [isChecked, setIsChecked] = useState(false);
-    const [isAdmin, setIsAdmin] = useState(false);
-    const [userIsLogged, setUserIsLogged] = useState(false);
 
     const menuMobile = createRef()
 

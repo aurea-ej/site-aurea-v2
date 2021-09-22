@@ -2,7 +2,7 @@ import { React, useEffect, useState } from 'react'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 
-import firebase from 'firebase/compat/app'
+import firebase from 'firebase/compat/app';
 import "firebase/compat/firestore";
 import "firebase/compat/database";
 import firebaseConfig from '../../FirebaseConfig.js'

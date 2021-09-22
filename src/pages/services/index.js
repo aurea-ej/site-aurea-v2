@@ -63,6 +63,10 @@ const services = () => {
                             <a href="http:/Servicos-Automacao"> E mais! </a>
                         </div>
                     </div>
+
+                    <div className="contactRedirect">
+                        <a href="http:/Contato"> Quer fechar um projeto? Marque uma reunião de diagnóstico gratuita!!</a>
+                    </div>
                 </section>
                 <WhatsappButton />
             <Footer />

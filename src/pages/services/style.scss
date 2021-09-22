@@ -130,4 +130,37 @@
             transform: scale(1.2);
         }
     }
+
+    .contactRedirect {
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            display: flex;
+            width: 50vw;
+            justify-content: center;
+            align-items: center;
+            background-color: $amarelo;
+            color: $roxo;
+            padding: 0.5em;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        a:hover {
+            background-color: $roxo;
+            cursor: pointer;
+            color: $amarelo;
+        }
+
+        a:active {
+            background-color: $branco;
+            color: $roxo;
+            transition: all 0.1s;
+        }
+    }
 }
