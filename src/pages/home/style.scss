@@ -125,7 +125,7 @@
             height: auto;
             width: auto;
             -webkit-user-drag: none;
-  
+            background-color: $preto;
         }
 
     }
@@ -252,6 +252,7 @@
         transform: scaleX(1);
         transform-origin: bottom left;
     }
+    
 
     h2 {
 
@@ -416,6 +417,8 @@
 
     .rowObjects {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: row;
 
         a {
@@ -513,19 +516,6 @@
                 height: auto;
                 width: auto;
                 transform: rotate(90deg);
-                -webkit-touch-callout: none;
-                -webkit-user-select: none;
-                -khtml-user-select: none;
-                -moz-user-select: none;
-                -ms-user-select: none;
-                user-select: none;
-                
-                pointer-events: none;
-                -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-
             }
 
         }
@@ -538,7 +528,7 @@
 
     display: flex;
     padding-left: 2rem;
-        padding-right: 2rem;
+    padding-right: 2rem;
 
     .feedbackCardsWrapper {
 
@@ -783,30 +773,231 @@
     }
   }
 
-//   @keyframes flicker {
-    
-//     0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-      
-//         text-shadow:
-//             -0.1rem -0.1rem .3rem rgb(228, 228, 228),
-//             0.1rem 0.1rem .3rem rgb(224, 224, 224),
-//             0 0 1rem $roxo,
-//             0 0 2rem $roxo,
-//             0 0 rem $roxo,
-//             0 0 4rem $roxo,
-//             0 0 5rem $roxo;
+@media screen and (max-width: 768px){
+
+    #mainHome {
+
+        background-color: black;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         
-//         box-shadow:
-//             0 0 .25rem #fff,
-//             inset 0 0 .25rem #fff,
-//             0 0 1rem $roxo,
-//             inset 0 0 1rem $roxo,
-//             0 0 2rem $roxo,
-//             inset 0 0 2rem $roxo;        
-//     }
     
-//     20%, 24%, 55% {        
-//         text-shadow: none;
-//         box-shadow: none;
-//     }    
-// }
+    }
+
+    #heroSection {
+        .heroTitle {
+            h1 {
+                font-size: 1.6em;
+                margin-left: 0;
+                background-color: #d4d4d4;
+            }
+
+            h2 {
+                font-size: 1em;
+            }
+
+            .heroData {
+                
+                display: flex;
+                flex-direction: column;
+
+                .heroCard {
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        font-size: 4rem;
+                    }
+
+                    b {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+
+        .heroImgWrapper {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 0;
+            width: 10vw;
+            height: 80vh;
+    
+            img {
+                display: none;
+                object-fit: contain;
+                height: auto;
+                width: auto;
+                -webkit-user-drag: none;
+                background-color: $preto;
+            }
+    
+        }
+    
+
+    }
+
+    #services {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        h1 {
+            font-size: 1.6em;
+            margin-left: 0;
+            width: 80vw;
+            background-color: #d4d4d4;
+        }
+
+        h2 {
+            font-size: 1em;
+        }
+
+        .rowObjects {
+            .servicesImgWrapper {
+
+                display: none;
+
+                img {
+                    display: none;
+                    object-fit: contain;
+                    height: auto;
+                    width: auto;
+                    -webkit-user-drag: none;
+                    background-color: $preto;
+                }
+            }
+        }
+
+        .servicesImgWrapper {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 0;
+            width: 10vw;
+            height: 80vh;
+    
+            img {
+                display: none;
+                object-fit: contain;
+                height: auto;
+                width: auto;
+                -webkit-user-drag: none;
+                background-color: $preto;
+            }
+    
+        }
+
+        .sectorServicearq, .sectorServiceele,
+        .sectorServiceauto, .sectorServicecomp,
+        .sectorServicenegoc {
+
+            width: 90vw;
+    
+        }
+    }
+
+    #whyChooseUs {
+
+        height: auto;
+
+        .chooseTextWrapper {
+
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            margin-left: 0;
+            width: 100vw;
+
+            .chooseText {
+
+                display: flex;
+                height: 100%;
+                width: 90vw;
+                flex-direction: column;
+                padding: 2em;
+
+                h1 {
+                    font-size: 1.6em;
+                    margin-left: 0;
+                    width: 80vw;
+                    background-color: $roxo;
+                }
+        
+                p {
+                    text-align: justify;
+                    text-indent: 2em;
+                    width: 80vw;
+                    font-size: 1rem;
+                    color: #fff;
+                    font-weight: 300;
+                    line-height: 1.9rem;
+                }
+            }
+        }
+
+        .chooseImgWrapper {
+            img {
+                display: none;
+            }
+        }
+    }
+
+    #feedbackCards {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+        .feedbackCardsWrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .feedbackCards {
+                width: 90vw;
+            }
+        }
+    }
+
+    #ourPartners {
+
+        background-color: red;
+        width: 100vw;
+
+
+        h1 {
+            font-size: 1.6em;
+            width: 80vw;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            text-indent: 2em;
+            width: 80vw;
+            font-size: 1rem;
+            color: #fff;
+            font-weight: 300;
+            line-height: 1.9rem;
+            padding: 0;
+        }
+
+        .partnersCardsWrapper {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
