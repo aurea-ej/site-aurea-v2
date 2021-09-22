@@ -33,7 +33,7 @@ function AboutUs() {
 
                         <div className="callToActionMembers">
 
-                            <a href="/Membros">Conheça nossas lideranças</a>
+                            <a href="/Membros">Clique aqui e conheça nossas lideranças</a>
 
                         </div>
 
