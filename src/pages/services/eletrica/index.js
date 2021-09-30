@@ -63,17 +63,8 @@ const eletrica = () => {
                         <h1>Veja alguns de nossos projetos!</h1>
                         <Slider {...settings}>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                            <p>Exemplo de texto de projeto</p>
-                        </div>
-                        <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                        </div>
-                        <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                        </div>
-                        <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src="https://i.ibb.co/zfW8059/martelinho.jpg" alt=""/>
+                            <p>A atuação da Aurea nesta consultoria foi entender as dores da Martelinho para que fosse possível desenhar a melhor solução possível para uma cabine de pintura automotiva. O problema geral era lidar com o overspray do ato da pintura de carros, porém para desenvolver um sistema de exaustão para retirar estas micropartículas, foi necessário a consideração de diversos fatores. Entender os modelos de exaustor e suas IPs no mercado, estudo sobre filtros, normas regulamentadoras da área ambiental e aplicação de conceitos da física como pressão e vazão. Ao final, foi possível entregar uma solução totalmente eficaz para a situação apresentada.</p>
                         </div>
                         </Slider>
                     </div>

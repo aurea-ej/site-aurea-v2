@@ -18,7 +18,7 @@ const arquitetura = () => {
         className: "center",
         centerMode: true,
         infinite: true,
-        centerPadding: "10px",
+        centerPadding: "0px",
         slidesToShow: 1,
         speed: 500,
         adaptiveHeight: true
@@ -117,17 +117,74 @@ const arquitetura = () => {
                         <h1>Veja alguns de nossos projetos!</h1>
                         <Slider {...settings}>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                            <p>Exemplo de texto de projeto</p>
+                            <img src="https://i.ibb.co/K7f3MkR/clinica3.jpg" alt=""/>
+                            <p>Tendo em vista a necessidade de um espaço mais confortável, atrativo e funcional, o projeto de reforma da clínica de estética belo corpo foi todo pensado em prol disso. Gerar um ambiente renovado sem a necessidade de se desfazer totalmente do antigo. No projeto temos uma clínica com tons neutros e espaços otimizados. Além disso, priorizamos a ideia de soluções rápidas e eficientes que não gerassem tanta mão de obra.
+                            Este foi um serviço de: projeto de reforma de interiores e teve duração de: 27/05/2019 - 29/07/2019.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src="https://i.ibb.co/FD6JCbF/cli-nica.jpg" alt=""/>
+                            <p>Tendo em vista a necessidade de um espaço mais confortável, atrativo e funcional, o projeto de reforma da clínica de estética belo corpo foi todo pensado em prol disso. Gerar um ambiente renovado sem a necessidade de se desfazer totalmente do antigo. No projeto temos uma clínica com tons neutros e espaços otimizados. Além disso, priorizamos a ideia de soluções rápidas e eficientes que não gerassem tanta mão de obra.
+                            Este foi um serviço de: projeto de reforma de interiores e teve duração de: 27/05/2019 - 29/07/2019.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src="https://i.ibb.co/KW3t0XJ/clinica2.jpg" alt=""/>
+                            <p>Tendo em vista a necessidade de um espaço mais confortável, atrativo e funcional, o projeto de reforma da clínica de estética belo corpo foi todo pensado em prol disso. Gerar um ambiente renovado sem a necessidade de se desfazer totalmente do antigo. No projeto temos uma clínica com tons neutros e espaços otimizados. Além disso, priorizamos a ideia de soluções rápidas e eficientes que não gerassem tanta mão de obra.
+                            Este foi um serviço de: projeto de reforma de interiores e teve duração de: 27/05/2019 - 29/07/2019.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src="https://i.ibb.co/vxtW2sK/Co-pia-de-03.png" alt=""/>
+                            <p>O Driver Club foi desenvolvido a partir da ideia de estabelecer uma empresa de tecnologia, com um serviço de alto padrão, rápido e custo acessível. O proprietário tinha o sonho de empreender e causar impacto em um mercado inexplorado. Para materializarmos tudo isso foi executado um projeto com estrutura metálica e concreto polido. No interior da franquia temos materiais que se comunicam com o externo, causando assim uma harmonia.
+                            Este foi um serviço de: projeto arquitetônico, projeto de interiores e memorial ilustrativo de acabamento e teve duração de: 11/05/2020 - 18/12/2020.</p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/TwfQ8wh/Co-pia-de-vista-lateral-direita.png" alt=""/>
+                            <p>O Driver Club foi desenvolvido a partir da ideia de estabelecer uma empresa de tecnologia, com um serviço de alto padrão, rápido e custo acessível. O proprietário tinha o sonho de empreender e causar impacto em um mercado inexplorado. Para materializarmos tudo isso foi executado um projeto com estrutura metálica e concreto polido. No interior da franquia temos materiais que se comunicam com o externo, causando assim uma harmonia.
+                            Este foi um serviço de: projeto arquitetônico, projeto de interiores e memorial ilustrativo de acabamento e teve duração de: 11/05/2020 - 18/12/2020.</p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/ry7cn1g/Co-pia-de-vista-frontal.png" alt=""/>
+                            <p>O Driver Club foi desenvolvido a partir da ideia de estabelecer uma empresa de tecnologia, com um serviço de alto padrão, rápido e custo acessível. O proprietário tinha o sonho de empreender e causar impacto em um mercado inexplorado. Para materializarmos tudo isso foi executado um projeto com estrutura metálica e concreto polido. No interior da franquia temos materiais que se comunicam com o externo, causando assim uma harmonia.
+                            Este foi um serviço de: projeto arquitetônico, projeto de interiores e memorial ilustrativo de acabamento e teve duração de: 11/05/2020 - 18/12/2020.</p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/sKfjCRP/Co-pia-de-2020-10-ARQ-RE-DANIEL-EP-V01-OP01.jpg" alt=""/>
+                            <p>Daniel e Bárbara chegaram com o desejo de ter uma residência que transmitisse a identidade deles, um casal apaixonado pelo simples, que valoriza a vegetação e fissurado por café. No projeto tentamos traduzir tudo isso através de um estilo arquitetônico mais rústico, rodeado de vegetação. O Daniel é um cliente fidelizado da Aurea, ele fez conosco também o projeto do laboratório de engenharia pedagógica.
+                            Este foi um serviço de: projeto de reforma de arquitetura residencial e teve duração de: 18/08/2020 - 29/11/2020.</p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/F4jzB3V/Co-pia-de-2-RENDER-FINAL-PO-S-PRODUC-A-O.png" alt=""/>
+                            <p>O âmbito conceitual do projeto foi pautado na própria cultura organizacional da Aurea, algo feito propositalmente em prol de atingir um nível satisfatório de pertencimento, algo que além de criar um ambiente que condiz com os princípios da empresa, a fortalece. A fim de viabilizar os conceitos propostos, as soluções práticas basearam-se em construir um layout móvel e híbrido a fim de criar infinitas possibilidades que serão descobertas de acordo com as demandas. Além de expor a história da empresa nas paredes, tal como criar espaço para os prêmios. Tudo isso com o objetivo de criar um ambiente despojado e acolhedor ao proporcionar a infraestrutura necessária para o bem estar do membro
+                            </p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/419T57R/6-effects-Result.png" alt=""/>
+                            <p>Localizada em Campos dos Goytacazes, a Casa J constitui um projeto com área equivalente a 286,79 m². A residência foi projetada com base nos conceitos de funcionalidade e modernidade para atender aos desejos da família composta por quatro membros. O grande desafio foi adaptar o programa de necessidades à estrutura existente. Na fachada principal, foram usados tons neutros, como o cinza e o branco, trazendo um ar de contemporaneidade e sofisticação, e o revestimento amadeirado, garantindo elegância na medida certa. A jardineira na varanda trouxe um charme a mais na composição! O projeto de Arquitetura também contempla a reforma da área de lazer da residência. Trabalhando o conceito de integração, é possível notar que o espaço foi projetado para atender as necessidades da família por um ambiente aconchegante e amplo de socialização. O objetivo foi criar uma atmosfera atraente e relaxante para descanso e também para festas e encontros. Foi projetada uma varanda Gourmet com uma área para churrasqueira, que recebe o apoio de uma cozinha instalada ao lado de fora da casa, ela pode servir como auxílio para a cozinha interna e também cria uma versatilidade de usos.Para compor o ambiente e torná-lo cada vez mais agradável, foi instalado um pergolado com trepadeiras. Ele funciona como um quebra sol, a combinação dos elementos ajuda a reduzir a temperatura do interior do ambiente, deixando o clima mais aconchegante.
+                            Este foi um serviço de: projeto de Reforma Residencial e teve duração de: 03/07/2020 - 25/09/2020.
+                            </p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/rGPN6qY/2-effects-Result.png" alt=""/>
+                            <p>Localizada em Campos dos Goytacazes, a Casa J constitui um projeto com área equivalente a 286,79 m². A residência foi projetada com base nos conceitos de funcionalidade e modernidade para atender aos desejos da família composta por quatro membros. O grande desafio foi adaptar o programa de necessidades à estrutura existente. Na fachada principal, foram usados tons neutros, como o cinza e o branco, trazendo um ar de contemporaneidade e sofisticação, e o revestimento amadeirado, garantindo elegância na medida certa. A jardineira na varanda trouxe um charme a mais na composição! O projeto de Arquitetura também contempla a reforma da área de lazer da residência. Trabalhando o conceito de integração, é possível notar que o espaço foi projetado para atender as necessidades da família por um ambiente aconchegante e amplo de socialização. O objetivo foi criar uma atmosfera atraente e relaxante para descanso e também para festas e encontros. Foi projetada uma varanda Gourmet com uma área para churrasqueira, que recebe o apoio de uma cozinha instalada ao lado de fora da casa, ela pode servir como auxílio para a cozinha interna e também cria uma versatilidade de usos.Para compor o ambiente e torná-lo cada vez mais agradável, foi instalado um pergolado com trepadeiras. Ele funciona como um quebra sol, a combinação dos elementos ajuda a reduzir a temperatura do interior do ambiente, deixando o clima mais aconchegante.
+                            Este foi um serviço de: projeto de Reforma Residencial e teve duração de: 03/07/2020 - 25/09/2020.
+                            </p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/k2Vc3sv/1-effects-Result.png" alt=""/>
+                            <p>Localizada em Campos dos Goytacazes, a Casa J constitui um projeto com área equivalente a 286,79 m². A residência foi projetada com base nos conceitos de funcionalidade e modernidade para atender aos desejos da família composta por quatro membros. O grande desafio foi adaptar o programa de necessidades à estrutura existente. Na fachada principal, foram usados tons neutros, como o cinza e o branco, trazendo um ar de contemporaneidade e sofisticação, e o revestimento amadeirado, garantindo elegância na medida certa. A jardineira na varanda trouxe um charme a mais na composição! O projeto de Arquitetura também contempla a reforma da área de lazer da residência. Trabalhando o conceito de integração, é possível notar que o espaço foi projetado para atender as necessidades da família por um ambiente aconchegante e amplo de socialização. O objetivo foi criar uma atmosfera atraente e relaxante para descanso e também para festas e encontros. Foi projetada uma varanda Gourmet com uma área para churrasqueira, que recebe o apoio de uma cozinha instalada ao lado de fora da casa, ela pode servir como auxílio para a cozinha interna e também cria uma versatilidade de usos.Para compor o ambiente e torná-lo cada vez mais agradável, foi instalado um pergolado com trepadeiras. Ele funciona como um quebra sol, a combinação dos elementos ajuda a reduzir a temperatura do interior do ambiente, deixando o clima mais aconchegante.
+                            Este foi um serviço de: projeto de Reforma Residencial e teve duração de: 03/07/2020 - 25/09/2020.
+                            </p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/PrYp3Ty/imagem-renderizada-1.png" alt=""/>
+                            <p>O projeto de interiores em questão foi realizado para uma cozinha. Esse ambiente não apresentava uma funcionalidade adequada e um modelo precário, no qual o cliente não se identificava no espaço, além do layout ser pequeno. Para solucionar tal inadequação, foi pensado um mobiliário planejado, com armários suspensos e abaixo das bancadas, a substituição de alguns eletrodomésticos, como a mudança de um fogão por um cooktop - forma essa encontrada para desocupar o espaço inferior, que seria utilizado para os armários - e também houve a implementação de uma coifa na cozinha, com o intuito de minimizar os resíduos durante o preparo de alimentos, tais como fumaça e gordura, assim, oferecendo um conforto maior nesse ambiente.
+                            Este foi um serviço de: projeto de Reforma residencial - cozinha e teve duração de: 22/06/2020 - 17/07/2020.
+                            </p>
+                        </div>
+                        <div className="portfolio1">
+                            <img src="https://i.ibb.co/FmHWR35/vista-02.jpg" alt=""/>
+                            <p>O projeto de interiores em questão foi realizado para uma cozinha. Esse ambiente não apresentava uma funcionalidade adequada e um modelo precário, no qual o cliente não se identificava no espaço, além do layout ser pequeno. Para solucionar tal inadequação, foi pensado um mobiliário planejado, com armários suspensos e abaixo das bancadas, a substituição de alguns eletrodomésticos, como a mudança de um fogão por um cooktop - forma essa encontrada para desocupar o espaço inferior, que seria utilizado para os armários - e também houve a implementação de uma coifa na cozinha, com o intuito de minimizar os resíduos durante o preparo de alimentos, tais como fumaça e gordura, assim, oferecendo um conforto maior nesse ambiente.
+                            Este foi um serviço de: projeto de Reforma residencial - cozinha e teve duração de: 22/06/2020 - 17/07/2020.
+                            </p>
                         </div>
                         </Slider>
                     </div>

@@ -64,17 +64,12 @@ const automacao = () => {
                         <h1>Veja alguns de nossos projetos!</h1>
                         <Slider {...settings}>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                            <p>Exemplo de texto de projeto</p>
+                            <img src="https://i.ibb.co/WcTG0sc/barril-cheio2.jpg" alt=""/>
+                            <p>O cliente queria modernizar seu negócio com uma chopeira automatizada. Para isso a Aurea trabalhou numa consultoria, fazendo uma pesquisa de mercado, listagem de equipamentos necessários, a diagramação do sistema, layout 3D e uma estimativa de preço da chopeira.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                        </div>
-                        <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                        </div>
-                        <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src="https://i.ibb.co/vsSTxGq/tr-pica2.jpg" alt=""/>
+                            <p>O cliente queria revitalizar seu sistema de lavagem automática de barris. Para isso a Aurea reformulou o sistema de CLP que o cliente usava, de modo que a lavagem fosse completa e sem danificar a estrutura e alterar as propriedades da bebida.</p>
                         </div>
                         </Slider>
                     </div>

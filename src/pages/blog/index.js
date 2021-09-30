@@ -56,7 +56,7 @@ export default function InfoCourses() {
 
             <main id='mainBlog'>
 
-                <h1>Bem-vindos ao Blog Aureano 💛 </h1> <h3>v0.1 Beta</h3>
+                <h1>Bem-vindos ao Blog Aureano 💛 </h1> <h3>v0.3 Beta</h3>
 
                 {dataBlog.map((item)=> (
 

@@ -150,9 +150,9 @@ function Home(){
 
                             </div>
                             
-                            <h2>Fulano de tal</h2>
+                            <h2>Vinícius</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>"A qualidade de toda pesquisa foi excelente, a entrega de vocês foi tudo dentro daquilo que a gente esperava. Até nos surpreendemos com a entrega final, porque a maioria de vocês não teve contato com esse mercado. Falo por mim e pelos meus sócios."</p>
 
                         </div>
 
@@ -191,7 +191,7 @@ function Home(){
                 <section id="ourPartners">
 
                     <h1> Nossos parceiros </h1>
-                    <p> São nossa base e nosso maior orgulho, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p> São um orgulho nosso, cada um deles tem ou teve um papel importante na caminhada da Aurea até onde está hoje! Nós somos extremamente gratos por ter esses parceiros conosco! </p>
                     
                     <div className="partnersCardsWrapper">
 
@@ -204,7 +204,7 @@ function Home(){
                             <div className="partnersText">
 
                                 <h2> <a href='http://www.riojunior.com.br/' target="_blank" rel="noreferrer">RioJunior</a> </h2>
-                                <p> Federação de Empresas Juniores do estado do Rio de Janeiro </p>
+                                <p> Federação de Empresas Juniores do estado do Rio de Janeiro. </p>
 
                             </div>
 
@@ -220,7 +220,7 @@ function Home(){
                             <div className="partnersText">
 
                                 <h2> <a href='https://brasiljunior.org.br/' target="_blank" rel="noreferrer">Brasil Júnior</a> </h2>
-                                <p> Instância que representa as empresas juniores brasileiras </p>
+                                <p> Instância que representa as empresas juniores brasileiras. </p>
 
                             </div>
 
@@ -235,7 +235,7 @@ function Home(){
                             <div className="partnersText">
 
                                 <h2> <a href='https://www.motim.me/' target="_blank" rel="noreferrer">Motim</a> </h2>
-                                <p> Organização bla bla bla </p>
+                                <p> Empresa de capacitações e ensino, com foco em Excel, VBA e Power BI. </p>
 
                             </div>
 
@@ -250,7 +250,7 @@ function Home(){
                             <div className="partnersText">
 
                                 <h2> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank" rel="noreferrer">Instituto Federal Fluminense</a>  </h2>
-                                <p> Organização bla bla bla </p>
+                                <p> Universidade em que a Aurea está situada, todos os membros da Empresa estudam aqui. </p>
 
                             </div>
 
@@ -265,7 +265,7 @@ function Home(){
                             <div className="partnersText">
 
                                 <h2> <a href='https://embrapii.org.br' target="_blank" rel="noreferrer">Polo de inovação / Embrapii</a>  </h2>
-                                <p> Organização bla bla bla </p>
+                                <p> Polo de inovação do IFF e a Empresa Brasileira de Pesquisa e Inovação Industrial. </p>
 
                             </div>
 

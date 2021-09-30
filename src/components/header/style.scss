@@ -105,8 +105,16 @@ header.active {
 
 }
 
+// 786px
+@media screen and (max-width: 1260px) {
 
-@media screen and (max-width: 768px) {
+    .logo {
+        padding-left: 20px;
+
+        img {
+            height: 5vh;
+        }
+    }
 
     .menu {
         display: none;
@@ -188,27 +196,26 @@ header.active {
         align-items: center;
         justify-content: center;
 
-    }
+        ul {
 
-    .menu-mobile ul {
-
-        margin-top: 8rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: right;
-        list-style: none;
-
-        a {
-            color: $branco;
-            text-decoration: none;
-            margin: 0 0 0.5em 0;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 5px;
-            padding: .5rem 1rem;
+            margin-top: 8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: right;
+            list-style: none;
+    
+            a {
+                color: $branco;
+                text-decoration: none;
+                margin: 0 0 0.5em 0;
+                text-align: center;
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 5px;
+                padding: .5rem 1rem;
+            }
+    
         }
-
     }
 
 }

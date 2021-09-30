@@ -70,13 +70,13 @@ const WhoWeAre = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_es50ccn', 'template_rn4t0qx', e.target, 'user_d92mbDEEb22iPIEkKRHrJ')
+        emailjs.sendForm('service_s15jld6', 'template_no2gydo', e.target, 'user_uRxvWrLzQd7xUEe5YKt22')
         .then((result) => {
             console.log(result.text);
-            alert("Sucesso!");
+            alert("E-mail enviado com sucesso!");
         }, (error) => {
             console.log(error.text);
-            alert("Erro!");
+            alert("Erro! Entre em contato por outro meio e nos avise desse erro!");
         });
         e.target.reset();
     }

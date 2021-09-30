@@ -603,6 +603,11 @@
                     h1 {
     
                         font-size: 2rem;
+                        width: 160%;
+                        color: $branco;
+                        text-align: center;
+                        font-size: 1.5rem;
+                        margin-bottom: 2rem;
     
                     }
     
@@ -611,6 +616,8 @@
                         padding: 0rem;
                         text-align: center;
                         color: $branco;
+                        width: 160%;
+                        margin-bottom: 4rem;
     
                         a {
     
@@ -624,6 +631,13 @@
                             }
     
                         }
+
+                    }
+
+                    #returnButton {
+
+                        color: $branco;
+
                     }
     
                 }

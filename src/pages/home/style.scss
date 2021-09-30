@@ -754,6 +754,34 @@
     }
   }
 
+@media screen and (max-width: 1260px) {
+
+    .heroTitle h1 {
+        //background-color: transparent;
+        line-height: 1rem;
+    }
+
+    .heroData {
+        display:flex;
+        flex-direction: column;
+
+        .heroCard {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-size: 4rem;
+            }
+
+            b {
+                font-size: 2rem;
+            }
+        }
+    }
+
+}
 @media screen and (max-width: 768px){
 
     #mainHome {
@@ -773,6 +801,7 @@
             h1 {
                 font-size: 1.6em;
                 margin-left: 0;
+                line-height: 2rem;
                 background-color: #d4d4d4;
             }
 
@@ -792,11 +821,12 @@
                     align-items: center;
 
                     p {
-                        font-size: 4rem;
+                        font-size: 3rem;
                     }
 
                     b {
                         font-size: 2rem;
+                        line-height: 2rem;
                     }
                 }
             }
@@ -910,6 +940,7 @@
 
                 h1 {
                     font-size: 1.6em;
+                    line-height: 2rem;
                     margin-left: 0;
                     width: 80vw;
                     background-color: $roxo;
@@ -989,6 +1020,9 @@
             .partnersImgWrapper {
                 width: 80vw;
                 height: 20vh;
+                img {
+                    filter: none;
+                }
             }
 
             .partnersCards {

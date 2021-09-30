@@ -17,17 +17,6 @@ export default function Footer (props) {
 
         <footer>
 
-            
-            <div className='about' >
-
-            <h1>Sobre a Aurea</h1>
-
-                <p>
-                A Aurea é uma empresa sem fins lucrativos, composta 100% por estudantes graduandos do IFF Centro. Toda renda é reinvestida em conhecimento para nossos membros, através de cursos, equipamentos, infraestrutura e etc.
-                </p>
-
-            </div>
-
             <div className="rowObjects">
 
                 <div className="rowObjects">

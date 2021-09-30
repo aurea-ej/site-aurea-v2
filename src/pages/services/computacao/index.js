@@ -62,17 +62,16 @@ const computacao = () => {
                         <h1>Veja alguns de nossos projetos!</h1>
                         <Slider {...settings}>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                            <p>Exemplo de texto de projeto</p>
+                            <img src="https://i.ibb.co/WPMcS6V/JK-MODAS-SITE.png" alt=""/>
+                            <p>Tendo em vista a necessidade de aumentar sua visibilidade online, a JK Modas desejava fazer um site para venda online de roupas e acessórios. O cliente entra na plataforma, solicita o produto pelo site e realiza o pagamento no ato da entrega. O modelo de negócios funcionou muito bem e após a entrega do projeto, o investimento foi recuperado em uma semana.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src="https://i.ibb.co/2q5kBC3/JMV-GLOBAL-SITE.png" alt=""/>
+                            <p>Reconstrução do site da JMV Global. Foi um projeto onde refizemos todo o site da empresa, acrescentando uma área para comercialização de cursos online, que foi solicitado devido a pandemia.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                        </div>
-                        <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src="https://i.ibb.co/VmbWHjf/JMV-GLOBAL-SISTEMA-WEB.jpg" alt=""/>
+                            <p>Sistema Web para geração de relatórios de segurança. Nesse projeto, elaboramos um sistema onde o usuário faz o cadastro de sua empresa e seus setores. O sistema retorna um relatório com informações sobre riscos no local de trabalho.</p>
                         </div>
                         </Slider>
                     </div>
