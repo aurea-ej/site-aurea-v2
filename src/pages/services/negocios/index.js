@@ -6,6 +6,11 @@ import Footer from '../../../components/footer';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import foto1 from '../../../imgs/ProjetoNegocios1.jpeg';
+import foto2 from '../../../imgs/ProjetoNegocios2.jpeg';
+import foto3 from '../../../imgs/ProjetoNegocios3.jpeg';
+import foto4 from '../../../imgs/ProjetoNegocios4.jpeg';
+
 
 import WhatsappButton from "../../../components/whatsappButton";
 
@@ -56,17 +61,20 @@ const negocios = () => {
                         <h1>Veja alguns de nossos projetos!</h1>
                         <Slider {...settings}>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
-                            <p>Exemplo de texto de projeto</p>
+                            <img src={foto1} alt=""/>
+                            <p>Este projeto teve como objetivo tornar mais visual a consulta de dados que antes era feita através de exportação de planilhas. Com o Business Intelligence foi possível fazer análises mais visuais e com filtragens dinâmicas. Além disso, o Dashboard será publicado para melhorar a transparência entre as Sescoop-RJ e seus beneficiários.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src={foto2} alt=""/>
+                            <p>Este projeto teve como objetivo tornar mais visual a consulta de dados que antes era feita através de exportação de planilhas. Com o Business Intelligence foi possível fazer análises mais visuais e com filtragens dinâmicas. Além disso, o Dashboard será publicado para melhorar a transparência entre as Sescoop-RJ e seus beneficiários.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src={foto3} alt=""/>
+                            <p>Este projeto teve como objetivo tornar mais visual a consulta de dados que antes era feita através de exportação de planilhas. Com o Business Intelligence foi possível fazer análises mais visuais e com filtragens dinâmicas. Além disso, o Dashboard será publicado para melhorar a transparência entre as Sescoop-RJ e seus beneficiários.</p>
                         </div>
                         <div className="portfolio1">
-                            <img src="http://placekitten.com/g/400/200" alt=""/>
+                            <img src={foto4} alt=""/>
+                            <p>Este projeto teve como objetivo tornar mais visual a consulta de dados que antes era feita através de exportação de planilhas. Com o Business Intelligence foi possível fazer análises mais visuais e com filtragens dinâmicas. Além disso, o Dashboard será publicado para melhorar a transparência entre as Sescoop-RJ e seus beneficiários.</p>
                         </div>
                         </Slider>
                     </div>
