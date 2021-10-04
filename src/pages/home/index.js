@@ -144,11 +144,11 @@ function Home(){
 
                         <div className="feedbackCards">
                             
-                            <div className="feedbackImgWrapper">
+{/*                             <div className="feedbackImgWrapper">
 
                                 <img src={Joelma} alt="imagem de perfil" />
 
-                            </div>
+                            </div> */}
                             
                             <h2>Vinícius</h2>
 
@@ -158,29 +158,31 @@ function Home(){
 
                         <div className="feedbackCards">
 
-                            <div className="feedbackImgWrapper">
+{/*                             <div className="feedbackImgWrapper">
 
                                 <img src={Joelma} alt="imagem de perfil" />
 
-                            </div>
+                            </div> */}
 
-                            <h2>Fulano de tal</h2>
+                            <h2>Marbelly</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>"Muito obrigada pelo carinho, empatia, pelo atendimento de qualidade e tudo mais. Não as conheço
+pessoalmente mas o carinho foi de primeira. Vocês são profissionais incríveis e tem um futuro de
+sucesso pela frente. Espero fazer muitos outros projetos com vocês."</p>
 
                         </div>
 
                         <div className="feedbackCards">
 
-                            <div className="feedbackImgWrapper">
+{/*                             <div className="feedbackImgWrapper">
 
                                 <img src={Joelma} alt="imagem de perfil" />
 
-                            </div>
+                            </div> */}
 
-                            <h2>Fulano de tal</h2>
+                            <h2>Renata</h2>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Excelente Trabalho, a apresentação e a organização superou minhas expectativas! Parabéns a todos!</p>
 
                         </div>
 
