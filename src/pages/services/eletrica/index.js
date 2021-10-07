@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import Header from '../../../components/header';
 import Footer from '../../../components/footer';
@@ -71,10 +72,10 @@ const eletrica = () => {
 
                     <div className="otherProjects">
                         <h1> Veja nossos outros serviços! </h1>
-                        <a href="http:/Servicos-Automacao"> Máquinas e Equipamentos </a>
-                        <a href="http:/Servicos-Arquitetura"> Arquitetura e Urbanismo </a>
-                        <a href="http:/Servicos-Computacao"> Desenvolvimento e Tecnologia </a>
-                        <a href="http:/Servicos-Negocios"> Gestão de Negócios </a>
+                        <Link to="/Servicos-Automacao"> Máquinas e Equipamentos </Link>
+                        <Link to="/Servicos-Arquitetura"> Arquitetura e Urbanismo </Link>
+                        <Link to="/Servicos-Computacao"> Desenvolvimento e Tecnologia </Link>
+                        <Link to="/Servicos-Negocios"> Gestão de Negócios </Link>
                     </div>
 
                 </section>
