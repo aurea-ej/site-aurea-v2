@@ -166,6 +166,7 @@
                 text-align: center;
                 font-size: 1em;
                 color: $amarelo;
+                padding: 0 2.2rem;
             }
         }
 
@@ -266,6 +267,16 @@
                     font-size: 1.6em;
                     margin-left: 0;
                     width: 80vw;
+                }
+
+                .portfolio1 {
+
+                    p {
+
+                        padding: 0;
+
+                    }
+
                 }
             }
 
