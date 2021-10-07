@@ -9,7 +9,7 @@ import './style.scss';
 function WhatsappButton() {
     return (
         <div className="teste">
-            <Link to="https://api.whatsapp.com/send?phone=+5521990157124&text=Olá!%20Como%20podemos%20te%20ajudar?" target="_blank"> <img src={whatsapp} alt="" /> </Link>
+            <a href="https://api.whatsapp.com/send?phone=+5521990157124&text=Olá!%20Como%20podemos%20te%20ajudar?" target="_blank"> <img src={whatsapp} alt="" /> </a>
         </div>
     )
 }
