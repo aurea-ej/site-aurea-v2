@@ -5,7 +5,7 @@ footer {
     width: 100vw;
     overflow-y: hidden;
     color: #FFF;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -122,6 +122,8 @@ footer {
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
+        padding-top: 20vh;
+        background-color: rgb(14, 14, 14);
 
         .about {
             width: 80vw;

@@ -232,7 +232,7 @@ function AboutUs() {
 
                                 </div>
 
-                                <a href="https://www.linkedin.com/in/victoreyer/" className="testimonialImageWrapper" target="_blank">
+                                <a href="https://www.linkedin.com" className="testimonialImageWrapper" target="_blank">
 
                                     <img src={Linkedin} alt="LinkedIn" />
 
