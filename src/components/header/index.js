@@ -119,7 +119,7 @@ export default function Header(props) {
 
                     <div className='logo' >
 
-                        <a href='/#mainHome'> <img src={logoAurea} alt="LogoAurea" /> </a>
+                        <Link to="/"> <img src={logoAurea} alt="LogoAurea" /> </Link>
 
                     </div>
 

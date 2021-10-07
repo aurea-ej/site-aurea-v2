@@ -182,7 +182,7 @@ sucesso pela frente. Espero fazer muitos outros projetos com vocês."</p>
 
                             <h2>Renata</h2>
 
-                            <p>Excelente Trabalho, a apresentação e a organização superou minhas expectativas! Parabéns a todos!</p>
+                            <p>"Excelente Trabalho, a apresentação e a organização superou minhas expectativas! Parabéns a todos!"</p>
 
                         </div>
 
