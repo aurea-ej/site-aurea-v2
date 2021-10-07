@@ -8,7 +8,7 @@ import facebookIcon from '../../imgs/facebookIcon.png'
 import linkedinIcon from '../../imgs/linkedinIcon.png'
 import logoAurea from '../../imgs/logoAurea2.png'
 import mascote from '../../imgs/AureaMascote1.png'
-import balaodefala from '../../imgs/Balaodefala.png'
+import balaodefala from '../../imgs/balaodefala3.png'
 
 export default function Footer (props) {
 
