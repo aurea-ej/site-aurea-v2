@@ -797,12 +797,15 @@
     }
 
     #heroSection {
+
         .heroTitle {
+
             h1 {
                 font-size: 1.6em;
-                margin-left: 0;
+                margin-left: 2rem;
                 line-height: 2rem;
-                background-color: #d4d4d4;
+                text-align: left;
+                color: $amarelo;
             }
 
             h2 {
@@ -842,12 +845,13 @@
             height: 80vh;
     
             img {
-                display: none;
+
                 object-fit: contain;
                 height: auto;
                 width: auto;
                 -webkit-user-drag: none;
-                background-color: $preto;
+                margin-bottom: 5rem;
+
             }
     
         }

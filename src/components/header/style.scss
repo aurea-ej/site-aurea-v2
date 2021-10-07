@@ -198,12 +198,13 @@ header.active {
 
         ul {
 
-            margin-top: 5rem;
+            margin-top: 6rem;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: right;
             list-style: none;
+            z-index: 9999;
     
             a {
                 color: $branco;

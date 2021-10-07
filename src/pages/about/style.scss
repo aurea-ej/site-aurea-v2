@@ -639,24 +639,28 @@
     
                         display: flex;
                         flex-direction: row;
-                        margin-left: 2rem;
+                        margin-right: 1rem;
                         width: 100%;
-    
+
                         .testimonialMembersTextInfos {
-    
+
                             h1 {
     
                                 font-weight: 400;
-                                font-size: 2rem;
+                                font-size: 1.5rem;
                                 color: $branco;
+                                text-align: right;
+                                margin-top: .5rem;
     
                             }
     
                             h4{
     
                                 font-weight: 500;
-                                font-size: 1.2rem;
+                                font-size: 1.1rem;
                                 color: $amarelo;
+                                text-align: right;
+                                margin-top: .7rem;
     
                             }
 
