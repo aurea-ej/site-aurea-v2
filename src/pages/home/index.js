@@ -34,8 +34,7 @@ function Home() {
                         <h1> O QUE PODEMOS ALCANÇAR JUNTOS? </h1>
                         {/* <h1> ALCANÇAR JUNTOS? </h1> */}
 
-
-                        <h2> A empresa júnior que mais cresce no Norte Fluminense. </h2>
+                        <h2> Empresa Júnior referência na região Norte Fluminense </h2>
 
                         <div className="heroData">
                             <div className="heroCard">
