@@ -13,6 +13,7 @@ import Negocios from './pages/services/negocios'
 import Members from './pages/members'
 import BlogAdm from './pages/blogAdmin'
 import Blog from './pages/blog'
+import PS from './pages/PS'
 
 const Routes = () => {
 
@@ -32,6 +33,7 @@ const Routes = () => {
             <Route component={Members} path='/membros'/>
             <Route component={BlogAdm} path='/Blog-Aurea-Admin'/>
             <Route component={Blog} path='/Blog'/>
+            <Route component={PS} path='/Processo-Seletivo'/>
 
         </BrowserRouter>
 
