@@ -9,7 +9,7 @@ import './style.scss';
 
 function Popup() {
 
-    const [displayPopup, setDisplayPopup] = useState('flex');
+    const [displayPopup, setDisplayPopup] = useState('none');
 
     function closePopup() {
 
