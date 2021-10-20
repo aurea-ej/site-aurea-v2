@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import WhatsappButton from "../../components/whatsappButton"
+import Poupup from "../../components/popup"
 
 import Astronauta1 from '../../imgs/Astronauta4.png'
 import astronauta from '../../imgs/astronauta.png'
@@ -13,7 +14,6 @@ import IFF from '../../imgs/ParceirosIFF.png'
 import RJ from '../../imgs/ParceirosRJ.png'
 import MOTIM from '../../imgs/ParceirosMotim.png'
 import logoEmbrapii from '../../imgs/Logo-embrapi-1.png'
-import Joelma from '../../imgs/Joelma.jpg'
 
 import './style.scss'
 
@@ -278,6 +278,8 @@ function Home() {
             </section>
 
             <WhatsappButton />
+
+            <Poupup />
 
             <Footer />
 
