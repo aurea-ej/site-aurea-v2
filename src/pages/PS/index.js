@@ -1,8 +1,5 @@
 import { React } from 'react';
-
-import Header from '../../components/header'
-import Footer from '../../components/footer'
-import WhatsappButton from "../../components/whatsappButton"
+import { Link } from "react-router-dom";
 
 import Show from '../../imgs/show.jpg'
 import RockInAurea from '../../imgs/rockInAurea.png'
@@ -35,6 +32,12 @@ function PS() {
 
                     <img className="backgroundPS" src={Show} />
 
+                    <div className="sendBackHome">
+
+                        <Link to="/">Voltar para o início</Link>
+
+                    </div>
+
                 </div>
 
             </section>
@@ -45,7 +48,11 @@ function PS() {
 
                     <h1>Sua hora de brilhar chegou!</h1>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic vel iure odio modi, cum animi perspiciatis sapiente repellat quis a numquam, molestiae libero voluptas. Praesentium repellat odio illo provident? Numquam nisi eveniet distinctio dignissimos, libero dolores aperiam dolorem at, corrupti nobis reprehenderit autem commodi vel consequatur! Ducimus veritatis porro recusandae animi corporis impedit quam quo voluptatem in beatae! Ullam dignissimos vel eum non magni quas dolore, animi ab dolor perferendis id. Saepe velit omnis consectetur doloribus, asperiores quaerat magni corporis nostrum quis rerum quibusdam voluptate eaque dolores! Magnam ullam doloribus accusantium iste. Consectetur at velit suscipit optio atque tempora, porro omnis itaque amet odio quam numquam autem tenetur asperiores animi quibusdam et nesciunt distinctio ullam. Quasi asperiores mollitia ex dolorem nobis voluptatum fuga rerum, voluptatem quia excepturi recusandae odio est distinctio illo officia perspiciatis vero expedita! Vitae autem error perferendis eius, libero dolor itaque nam sed totam officiis rem, nisi neque, ratione quisquam? Earum asperiores doloremque neque debitis harum laboriosam architecto assumenda reprehenderit ipsum aliquid laudantium alias iste odit, quis quisquam, a ad. Molestiae necessitatibus, explicabo ducimus pariatur deserunt expedita.</p>
+                    <p>Pega sua guitarra, prepara a jaqueta de couro e tira a poeira daquele coturno jogado no canto do seu quarto porque hoje é dia de rock, bebê! A line-up já está confirmada e os ingressos já estão à venda! Chegou sua hora de subir ao palco e dar início à sua carreira de sucesso. Está aberto o Processo Seletivo 2021.2 da Aurea Soluções e Projetos, o <strong>Rock in Aurea!</strong></p>
+
+                    <p>A Aurea é uma empresa júnior do Instituto Federal Fluminense - campus Campos Centro. Fundada no ano de 2016, iniciamos nossos primeiros passos como empresa referência da região Norte Fluminense. Oferecendo serviços na área de <strong>Arquitetura e Urbanismo, Engenharia de Computação, Engenharia de Controle e Automação e Engenharia Elétrica</strong>, passamos a amadurecer como empresa, e alcançamos a tão sonhada federação no ano de 2018, sendo reconhecida pelo Movimento Empresa Júnior (MEJ) como uma Empresa Júnior. Nossa excelência, esforço e dedicação em projetos nos retornou diversas premiações, reconhecendo a Aurea como uma empresa "Bi impacto", o que significa que fomos capazes de bater todas nossas metas anuais por dois anos consecutivos. Atualmente, estamos em busca do tão sonhado "Tri-impacto".</p>
+
+                    <p>Na Aurea, estamos sempre na busca de pessoas que estejam dispostas a inovar e se desenvolver. Aqui aprendemos e erramos juntos, e estamos em constante evolução, sempre com o apoio um do outro. Estamos sempre buscando impactar, e precisamos de você para isso. A nossa missão é formar empreendedores de impacto através do jeitinho Aureano de ser: <strong>A</strong>paixonado, <strong>U</strong>nido, <strong>R</strong>esponsável, <strong>E</strong>mpático, <strong>A</strong>udacioso, <strong>N</strong>otável e <strong>O</strong>bstinado.</p>
 
                 </div>
 
@@ -63,7 +70,21 @@ function PS() {
 
                             <h4>14/10 a 01/11</h4>
 
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis numquam illum cum iure accusamus beatae?</span>
+                            <p>
+
+                                Para o início do seu estrelato, você precisa fazer sua inscrição através do
+
+                                <a
+                                    target="_blank"
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform"> Formulário de inscrição
+                                </a> do Processo Seletivo 2021.2. Lembre-se de ler o
+
+                                <a
+                                    target="_blank"
+                                    href="https://www.google.com/url?q=http://bit.ly/RockInAurea20212&sa=D&source=editors&ust=1634351367079000&usg=AOvVaw09UH5vlIEaUM_BfXd62uMP"> Edital
+                                </a> antes de realizar sua inscrição.
+
+                            </p>
 
                         </div>
 
@@ -85,7 +106,7 @@ function PS() {
 
                             <h4>04/11</h4>
 
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis numquam illum cum iure accusamus beatae?</span>
+                            <p>Após analizarmos suas informações, entraremos em contato para marcarmos a data de sua entrevista com os nossos entrevistadores.</p>
 
                         </div>
 
@@ -95,7 +116,7 @@ function PS() {
 
                             <h4>18/11</h4>
 
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis numquam illum cum iure accusamus beatae?</span>
+                            <p>Nessa etapa, você participará de uma entrevista com os nossos entrevistadores. Além disso, haverá um momento de dinâmica de grupo com os outros membros inscritos. Fique tranquilo(a) quanto a isso, apenas queremos conhecer melhor suas histórias e desafios. </p>
 
                         </div>
 
@@ -117,7 +138,7 @@ function PS() {
 
                             <h4>13/12</h4>
 
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis numquam illum cum iure accusamus beatae?</span>
+                            <p>Os da fase anterior serão informados sobre o seu desempenho, e, caso aprovados, passarão para a etapa de processo trainee.</p>
 
                         </div>
 
@@ -127,7 +148,7 @@ function PS() {
 
                             <h4>15/12</h4>
 
-                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis numquam illum cum iure accusamus beatae?</span>
+                            <p>Como último passo antes de se tornar um Aureano, você irá passar por um processo trainee para conhecer melhor o funcionamento de nossa empresa, passando por capacitações e diversas pautas preparadas especialmente pelos nossos membros para você.</p>
 
                         </div>
 
@@ -139,7 +160,7 @@ function PS() {
 
                     </div>
 
-                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform">Inscrever-se</a>
+                    <a id="buttonRegister" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform">Inscrever-se</a>
 
                 </section>
 
@@ -197,9 +218,9 @@ function PS() {
 
                             <h1>O que é uma empresa júnior?</h1>
 
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis esse tenetur consequuntur quo voluptate delectus maxime amet! Dolor, perspiciatis. Nemo quaerat aperiam eius perferendis, ut ex, laborum incidunt sunt numquam minus nulla quo debitis. Cupiditate autem dolor eos. At numquam eos consequuntur minima dolorum, nobis laborum consequatur natus rerum obcaecati.</p>
+                            <p>A Empresa Júnior (EJ) é um empreendimento sem fins lucrativos. Sua organização é formada por estudantes de graduação e orientada por professores. É através de uma empresa júnior que os estudantes podem pôr em prática tudo aquilo que aprende dentro da sala de aula, antes mesmo de se formar. Nela, é possível desenvolver projetos e prestar serviços para pessoas ou empresas, fornecendo um amadurecimento acelerado.</p>
 
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis esse tenetur consequuntur quo voluptate delectus maxime amet! Dolor, perspiciatis. Nemo quaerat aperiam eius perferendis, ut ex, laborum incidunt sunt numquam minus nulla quo debitis. Cupiditate autem dolor eos. At numquam eos consequuntur minima dolorum, nobis laborum consequatur natus rerum obcaecati.</p>
+                            <p>De acordo com dados da Brasil Júnior, confederação que rege as Empresas Juniores do Brasil, existem mais de 1400 EJs espalhadas por mais de 260 universidades que realizam mais de 40 mil projetos por ano. Somente nesse ano, o MEJ já impactou mais de R$ 55.6 milhões na economia brasileira, que são integralmente reinvestidos na educação empreendedora dos estudantes. Sua missão é formar, por meio da vivência empresarial, empreendedores comprometidos e capazes de transformar o Brasil.</p>
 
                             <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform">Quero me inscrever</a>
 
