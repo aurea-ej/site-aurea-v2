@@ -128,6 +128,7 @@ export default function Header(props) {
                         <ul>
 
                             <li> <Link to='/' > Início </Link> </li>
+                            <li> <Link to='/Processo-Seletivo' > Processo Seletivo 2021.2 </Link> </li>
                             <li> <Link to='/Quem-somos-nos'> Quem Somos </Link> </li>
                             <li> <Link to='/Servicos'> Serviços </Link> </li>
                             <li> <Link to='/Contato'> Contato </Link> </li>
@@ -164,6 +165,7 @@ export default function Header(props) {
                     <ul>
 
                         <a href="/"> Início </a>
+                        <a href="/Processo-Seletivo"> Processo Seletivo 2021.2 </a>
                         <a href="/Quem-somos-nos"> Quem Somos </a>
                         <a href="/Servicos"> Serviços </a>
                         <a href="/Contato"> Contato </a>
