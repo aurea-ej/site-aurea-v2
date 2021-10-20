@@ -2,8 +2,8 @@ import { React, useState } from 'react';
 import { Link } from "react-router-dom";
 
 import Guitarist from '../../imgs/violão.png'
-import RockInAurea3 from '../../imgs/rockInAurea3.png'
-import Pattern from '../../imgs/abstract.png'
+import RockInAurea3 from '../../imgs/rockinaurea4.png'
+import Pattern from '../../imgs/abstract2.jpeg'
 
 import './style.scss';
 
@@ -30,8 +30,12 @@ function Popup() {
 
                 <div className="infoPopup">
 
-                    <img draggable="false" id="rockInAurea" src={RockInAurea3} alt="" />
-                    <h1>Processo Seletivo 2021.2</h1>
+                    <div className="imgPSWrapper">
+
+                        <img draggable="false" id="rockInAurea" src={RockInAurea3} alt="" />
+                    
+                    </div>
+                    <h1>Processo Seletivo <br/>2021.2</h1>
                     <Link className="buttonInfo" to="/processo-seletivo">Saiba mais</Link>
 
                 </div>
