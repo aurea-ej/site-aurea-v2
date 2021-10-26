@@ -22,7 +22,7 @@ function PS() {
 
                     <div className="logoPSWrapper">
 
-                        <img className="rockInAurea" draggable="false" src={RockInAurea} />
+                        <img className="rockInAurea" draggable="false" src={RockInAurea} alt=""/>
                         <h1>Agora o palco é seu!</h1>
                         <h4>Processo seletivo 2021.2</h4>
 
@@ -30,7 +30,7 @@ function PS() {
 
                     </div>
 
-                    <img className="backgroundPS" src={Show} />
+                    <img className="backgroundPS" src={Show} alt=""/>
 
                     <div className="sendBackHome">
 
@@ -76,12 +76,12 @@ function PS() {
 
                                 <a
                                     target="_blank"
-                                    href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform"> Formulário de inscrição
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform" rel="noreferrer"> Formulário de inscrição
                                 </a> do Processo Seletivo 2021.2. Lembre-se de ler o
 
                                 <a
                                     target="_blank"
-                                    href="https://www.google.com/url?q=http://bit.ly/RockInAurea20212&sa=D&source=editors&ust=1634351367079000&usg=AOvVaw09UH5vlIEaUM_BfXd62uMP"> Edital
+                                    href="https://www.google.com/url?q=http://bit.ly/RockInAurea20212&sa=D&source=editors&ust=1634351367079000&usg=AOvVaw09UH5vlIEaUM_BfXd62uMP" rel="noreferrer"> Edital
                                 </a> antes de realizar sua inscrição.
 
                             </p>
@@ -160,7 +160,7 @@ function PS() {
 
                     </div>
 
-                    <a id="buttonRegister" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform">Inscrever-se</a>
+                    <a id="buttonRegister" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform" rel="noreferrer">Inscrever-se</a>
 
                 </section>
 
@@ -182,7 +182,7 @@ function PS() {
 
                         <p>A Aurea foi criada com um único objetivo: <strong>impactar!</strong> Aqui prezamos pela satisfação de nossos membros. Não formamos apenas membros preparados para o mercado de trabalho. Formamos lideranças. Formamos pessoas capazes de superar qualquer desafio independente do grau de dificuldade. E acima de tudo: <strong>formamos laços!</strong> Se engana quem pensa que a Aurea é apenas uma empresa júnior. Somos muito mais do que isso! <strong>SOMOS UMA FAMÍLIA! E chegou sua hora de fazer parte dela.</strong></p>
 
-                        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform">Quero fazer parte!</a>
+                        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform" rel="noreferrer">Quero fazer parte!</a>
 
                     </div>
 
@@ -207,7 +207,7 @@ function PS() {
                                 <span>
                                     • Estar em plena concordância com os termos do <a
                                         target="_blank"
-                                        href="https://www.google.com/url?q=http://bit.ly/RockInAurea20212&sa=D&source=editors&ust=1634351367079000&usg=AOvVaw09UH5vlIEaUM_BfXd62uMP">Edital
+                                        href="https://www.google.com/url?q=http://bit.ly/RockInAurea20212&sa=D&source=editors&ust=1634351367079000&usg=AOvVaw09UH5vlIEaUM_BfXd62uMP" rel="noreferrer">Edital
                                     </a>.
                                 </span>
                             </li>
@@ -222,7 +222,7 @@ function PS() {
 
                             <p>De acordo com dados da Brasil Júnior, confederação que rege as Empresas Juniores do Brasil, existem mais de 1400 EJs espalhadas por mais de 260 universidades que realizam mais de 40 mil projetos por ano. Somente nesse ano, o MEJ já impactou mais de R$ 55.6 milhões na economia brasileira, que são integralmente reinvestidos na educação empreendedora dos estudantes. Sua missão é formar, por meio da vivência empresarial, empreendedores comprometidos e capazes de transformar o Brasil.</p>
 
-                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform">Quero me inscrever</a>
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform" rel="noreferrer">Quero me inscrever</a>
 
                             <div className="imgPSWrapper">
 

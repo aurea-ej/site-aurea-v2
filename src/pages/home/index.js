@@ -14,6 +14,8 @@ import IFF from '../../imgs/ParceirosIFF.png'
 import RJ from '../../imgs/ParceirosRJ.png'
 import MOTIM from '../../imgs/ParceirosMotim.png'
 import logoEmbrapii from '../../imgs/Logo-embrapi-1.png'
+// import ApsisLogo from '../../imgs/apsislogo.png'
+import sicooblogo from '../../imgs/marca_sicoob_branca.png'
 
 import './style.scss'
 
@@ -272,6 +274,36 @@ function Home() {
                         </div>
 
                     </div>
+
+                    <div className="partnersCards">
+
+                        <div className="partnersImgWrapper">
+                            <a href='http://www.riojunior.com.br/' target='_blank' rel="noreferrer"> <img src={sicooblogo} alt="RioJunior" /> </a>
+                        </div>
+
+                        <div className="partnersText">
+
+                            <h2> <a href='http://www.riojunior.com.br/' target="_blank" rel="noreferrer">Sicoob</a> </h2>
+                            <p> Instituição financeira cooperativa com milhões de clientes em todo o Brasil. </p>
+
+                        </div>
+
+                    </div>
+
+{/*                     <div className="partnersCards">
+
+                        <div className="partnersImgWrapper">
+                            <a href='http://www.riojunior.com.br/' target='_blank' rel="noreferrer"> <img src={ApsisLogo} alt="RioJunior" /> </a>
+                        </div>
+
+                        <div className="partnersText">
+
+                            <h2> <a href='http://www.riojunior.com.br/' target="_blank" rel="noreferrer">Apsis</a> </h2>
+                            <p> Empresa do ramo de consultorias independentes especializada em avaliações e geração de valor para seus clientes. </p>
+
+                        </div>
+
+                    </div>    */}                
 
                 </div>
 

@@ -4,7 +4,6 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 
 import mascote1 from '../../imgs/Mascote1.png'
-import Joelma from '../../imgs/Joelma.jpg'
 
 import Linkedin from "../../imgs/linkedinLogo2.svg"
 
@@ -121,7 +120,7 @@ function AboutUs() {
 
                                 </div>
 
-                                <a href="https://www.linkedin.com/in/heitor-vasconcelos-35423b192/" className="testimonialImageWrapper" target="_blank">
+                                <a href="https://www.linkedin.com/in/heitor-vasconcelos-35423b192/" className="testimonialImageWrapper" target="_blank" rel="noreferrer">
 
                                     <img src={Linkedin} alt="LinkedIn" />
 
@@ -158,7 +157,7 @@ function AboutUs() {
 
                                 </div>
 
-                                <a href="https://www.linkedin.com/in/maria-clara-moura-5a30a9164/" className="testimonialImageWrapper" target="_blank">
+                                <a href="https://www.linkedin.com/in/maria-clara-moura-5a30a9164/" className="testimonialImageWrapper" target="_blank" rel="noreferrer">
 
                                     <img src={Linkedin} alt="LinkedIn" />
 
@@ -195,7 +194,7 @@ function AboutUs() {
 
                                 </div>
 
-                                <a href="https://www.linkedin.com/in/victoreyer/" className="testimonialImageWrapper" target="_blank">
+                                <a href="https://www.linkedin.com/in/victoreyer/" className="testimonialImageWrapper" target="_blank" rel="noreferrer">
 
                                     <img src={Linkedin} alt="LinkedIn" />
 
@@ -232,7 +231,7 @@ function AboutUs() {
 
                                 </div>
 
-                                <a href="https://www.linkedin.com" className="testimonialImageWrapper" target="_blank">
+                                <a href="https://www.linkedin.com" className="testimonialImageWrapper" target="_blank" rel="noreferrer">
 
                                     <img src={Linkedin} alt="LinkedIn" />
 
@@ -269,7 +268,7 @@ function AboutUs() {
 
                                 </div>
 
-                                <a href="https://www.linkedin.com/in/ana-carolina-paes-b34344190/" className="testimonialImageWrapper" target="_blank">
+                                <a href="https://www.linkedin.com/in/ana-carolina-paes-b34344190/" className="testimonialImageWrapper" target="_blank" rel="noreferrer">
 
                                     <img src={Linkedin} alt="LinkedIn" />
 
@@ -306,7 +305,7 @@ function AboutUs() {
 
                                 </div>
 
-                                <a href="https://www.linkedin.com/in/paula-jordy-a94964a0/" className="testimonialImageWrapper" target="_blank">
+                                <a href="https://www.linkedin.com/in/paula-jordy-a94964a0/" className="testimonialImageWrapper" target="_blank" rel="noreferrer">
 
                                     <img src={Linkedin} alt="LinkedIn" />
 
@@ -343,7 +342,7 @@ function AboutUs() {
 
                                 </div>
 
-                                <a href="https://www.linkedin.com/in/joão-victor-fernandes-maciel-da-silva-9a5a5b1a6/" className="testimonialImageWrapper" target="_blank">
+                                <a href="https://www.linkedin.com/in/joão-victor-fernandes-maciel-da-silva-9a5a5b1a6/" className="testimonialImageWrapper" target="_blank" rel="noreferrer">
 
                                     <img src={Linkedin} alt="LinkedIn" />
 

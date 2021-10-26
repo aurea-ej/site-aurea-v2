@@ -287,7 +287,7 @@ export default function BlogAdm() {
                                 onChange={(event) => { setParagraphs(event.target.value) }}
                             />
 
-                            <a className='sendButtonBlog' onClick={sendPost} >Enviar</a>
+                            <a className='sendButtonBlog' onClick={sendPost} href="/">Enviar</a>
 
                         </fieldset>
 
@@ -313,7 +313,7 @@ export default function BlogAdm() {
 
                         </select>
 
-                        <a className='sendButtonBlog' onClick={deletePost} >Apagar</a>
+                        <a className='sendButtonBlog' onClick={deletePost} href="/">Apagar</a>
 
                     </section>
 
@@ -353,7 +353,7 @@ export default function BlogAdm() {
                             <input placeholder='E-mail' onChange={(txt) => setEmail(txt.target.value)} />
                             <input type="password" placeholder='Senha' onChange={(txt) => setPassword(txt.target.value)} />
 
-                            <a id="signInButton" onClick={SignIn} >Entrar</a>
+                            <a id="signInButton" onClick={SignIn} href="/">Entrar</a>
                             <Link id="returnButton" to='/'>Voltar</Link>
 
                         </div>
