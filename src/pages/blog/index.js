@@ -7,6 +7,7 @@ import "firebase/compat/firestore";
 import "firebase/compat/database";
 import firebaseConfig from '../../FirebaseConfig.js'
 
+import aviaoAureaVertical from '../../imgs/aviaoAurea.png'
 
 import './style.scss';
 
@@ -19,7 +20,7 @@ export default function InfoCourses() {
     }, []);
 
     const [dataBlog, setDataBlog] = useState([{}])
-    const [setDataBlogExists] = useState(false)
+    const [dataBlogExists, setDataBlogExists] = useState(false)
 
     useEffect(() => {
 
@@ -63,7 +64,7 @@ export default function InfoCourses() {
 
                         <h3>{item.title}</h3>
                         <h5>{item.desc}</h5>
-                        <img src={item.imageUrl} alt=""/>
+                        <img src={item.imageUrl} />
 
                         <div className="paragraphPost">
                             {
