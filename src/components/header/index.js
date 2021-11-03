@@ -34,81 +34,12 @@ export default function Header(props) {
 
     window.addEventListener('scroll', changeBackground);
 
-    // function onAuthStateChanged(user) {
-
-    //     firebase.auth().onAuthStateChanged((user) => {
-    //         if (user) 
-    //           setUserIsLogged(true)
-    //       });
-
-
-    // }
-
-    // useEffect(() => {
-
-    //     if(!firebase.apps.length)
-    //         firebase.initializeApp(firebaseConfig)
-    //     onAuthStateChanged();
-
-    // }, []);
-
-    // useEffect(() => {
-
-    //     const userEmail = localStorage.getItem('adminEmail')
-
-    //     // firebase.database().ref('users/').get('/users')
-    //     //     .then(function (snapshot) {
-
-    //     //         if (snapshot.exists()) {
-
-    //     //             var data = snapshot.val()
-    //     //             var temp = Object.keys(data).map((key) => data[key])
-
-    //     //             setDataUsers(temp)
-
-    //     //             temp.map((item) => {
-
-    //     //                 if (item.email === userEmail) {
-    //     //                     setDataAccount(item)
-    //     //                 }
-
-    //     //             })
-
-    //     //         } else
-
-    //     //             console.log("No data available");
-
-    //     //     })
-
-    //     firebase.database().ref('admins/').get('/admins')
-    //         .then(function (snapshot) {
-
-    //             if (snapshot.exists()) {
-
-    //                 var data = snapshot.val()
-    //                 var temp = Object.keys(data).map((key) => data[key])
-
-    //                 console.log('data', data)
-    //                 console.log('temp', temp)
-    //                 console.log('temp', temp.email)
-
-    //                 temp.map((item) => {
-
-    //                     if (item.email === userEmail) {
-
-    //                         setIsAdmin(true)
-
-    //                     }
-
-    //                 })
-
-    //             } else
-
-    //                 console.log("No data available");
-
-    //         })
-
-    // }, []);
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      };
 
     return (
 
@@ -127,12 +58,12 @@ export default function Header(props) {
 
                         <ul>
 
-                            <li> <Link to='/' > Início </Link> </li>
-                            <li> <Link to='/Processo-Seletivo' > Processo Seletivo 2021.2 </Link> </li>
-                            <li> <Link to='/Quem-somos-nos'> Quem Somos </Link> </li>
-                            <li> <Link to='/Servicos'> Serviços </Link> </li>
-                            <li> <Link to='/Contato'> Contato </Link> </li>
-                            <li> <Link to='/Blog'> Blog </Link> </li>
+                            <li> <Link onClick={scrollToTop} to='/' > Início </Link> </li>
+                            <li> <Link onClick={scrollToTop} to='/Processo-Seletivo' > Processo Seletivo 2021.2 </Link> </li>
+                            <li> <Link onClick={scrollToTop} to='/Quem-somos-nos'> Quem Somos </Link> </li>
+                            <li> <Link onClick={scrollToTop} to='/Servicos'> Serviços </Link> </li>
+                            <li> <Link onClick={scrollToTop} to='/Contato'> Contato </Link> </li>
+                            <li> <Link onClick={scrollToTop} to='/Blog'> Blog </Link> </li>
 
                         </ul>
 
