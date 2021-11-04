@@ -16,6 +16,7 @@ import MOTIM from '../../imgs/ParceirosMotim.png'
 import logoEmbrapii from '../../imgs/Logo-embrapi-1.png'
 // import ApsisLogo from '../../imgs/apsislogo.png'
 import sicooblogo from '../../imgs/marca_sicoob_branca.png'
+import NEJ from '../../imgs/nej.png'
 
 import './style.scss'
 
@@ -278,13 +279,28 @@ function Home() {
                     <div className="partnersCards">
 
                         <div className="partnersImgWrapper">
-                            <a href='http://www.riojunior.com.br/' target='_blank' rel="noreferrer"> <img src={sicooblogo} alt="RioJunior" /> </a>
+                            <a href='https://www.sicoob.com.br/' target='_blank' rel="noreferrer"> <img src={sicooblogo} alt="RioJunior" /> </a>
                         </div>
 
                         <div className="partnersText">
 
-                            <h2> <a href='http://www.riojunior.com.br/' target="_blank" rel="noreferrer">Sicoob</a> </h2>
+                            <h2> <a href='https://www.sicoob.com.br/' target="_blank" rel="noreferrer">Sicoob</a> </h2>
                             <p> Instituição financeira cooperativa com milhões de clientes em todo o Brasil. </p>
+
+                        </div>
+
+                    </div>
+
+                    <div className="partnersCards">
+
+                        <div className="partnersImgWrapper">
+                            <a href='https://www.instagram.com/nejnorteflu/' target='_blank' rel="noreferrer"> <img src={NEJ} alt="Núcleo Norte Fluminense" /> </a>
+                        </div>
+
+                        <div className="partnersText">
+
+                            <h2> <a href='https://www.instagram.com/nejnorteflu/' target="_blank" rel="noreferrer">Núcleo Norte Fluminense</a> </h2>
+                            <p> Núcleo de Empresas Juniores do Norte do estado do Rio de Janeiro </p>
 
                         </div>
 

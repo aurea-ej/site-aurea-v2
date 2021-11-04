@@ -636,7 +636,7 @@
 
     .partnersCards {
         margin-top: 2rem;
-        width: 45vw;
+        width: 20vw;
         text-align: center;
         justify-content: center;
         display: flex;
@@ -992,7 +992,6 @@
 
     #ourPartners {
 
-        width: 80vw;
         align-items: center;
         justify-content: center;
         color: #fff;
@@ -1000,21 +999,20 @@
 
         h1 {
             font-size: 1.6em;
-            width: 80vw;
             text-align: center;
             margin: 0;
         }
 
         p {
-            text-align: justify;
-            text-indent: 2em;
-            width: 80vw;
+            text-align: center;
+            text-indent: 0;
             font-size: 1rem;
             color: #fff;
             font-weight: 300;
             line-height: 1.9rem;
             padding: 0;
             margin: 0;
+            padding: 0 2rem;
         }
 
         .partnersCardsWrapper {
