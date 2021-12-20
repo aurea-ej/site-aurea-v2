@@ -24,93 +24,23 @@ export default function BlogAdm() {
         title: '',
         desc: '',
         imageUrl: '',
+        authorPicture: '',
         content: '',
-        author: ''
+        author: '',
+        hashtag: '',
 
     })
 
     const [dataAdm, setDataAdm] = useState([{}])
     const [dataKeysAdm, setDataKeysAdm] = useState([])
+    const [postHashtags, setPostHashtags] = useState([])
     const [selectItemToDelete, setSelectItemToDelete] = useState('')
-/*     const [paragraph, setParagraph] = useState([]) */
     const [paragraphs, setParagraphs] = useState([])
-/*     const [paragraphsAmount, setParagraphsAmount] = useState(0) */
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
     const [haveLogIn, setHaveLogIn] = useState(false)
     const [imageUrl, setImageUrl] = useState('')
-/*     const [userIsLogged, setUserIsLogged] = useState(false); */
-    // const [needUpdatePage, setNeedUpdatePage] = useState(false)
-
-    //  const [loginData,setLoginData] = useState({
-        
-    //     email: '',
-    //     password: ''
-
-    // })
-
-    // function SignIn() {
-
-    //     // firebase.auth()
-    //     //     .signInWithEmailAndPassword(email, password)
-    //     //     .then((user) => {
-    //     //         setHaveLogIn(true)
-    //     //         localStorage.setItem('adminEmail', email)
-    //     //     })
-    //     //     .catch((error) => {
-    //     //         console.log(error.message)
-    //     //     });
-
-    //     firebase.auth().signInWithEmailAndPassword(loginData.email, loginData.password)
-    //     .then((userCredential) => {
-    //         var user = userCredential.user;
-    //         localStorage.setItem('userEmail',loginData.email)
-
-    //     })
-    //     .catch((error) => {
-    //         var errorCode = error.code;
-    //         var errorMessage = error.message;
-    //         alert(errorMessage)
-    //     }); 
-
-    // }
-
-    // function handleInputLoginChange(event) {
-
-    //     const {name, value} = event.target
-
-    //     setLoginData ({
-
-    //         ...loginData, [name]: value
-
-    //     })
-        
-    // }
-
-    // function onAuthStateChanged(user) {
-
-    //     firebase.auth().onAuthStateChanged((user) => {
-    //         if (user) 
-    //           setUserIsLogged(true)
-    //       });
-
-    // }
-
-    // useEffect(() => {
-        
-    //     window.scrollTo(0, 0);
-
-    //     if(!firebase.apps.length)
-    //         firebase.initializeApp(firebaseConfig)
-    //     onAuthStateChanged();
-
-    // }, []);
-
-    useEffect(() => {
-
-        // window.scrollTo(0, 0);
-
-    }, []);
+    const [authorPicture, setAuthorPicture] = useState('')
 
     useEffect(() => {
 
@@ -155,14 +85,24 @@ export default function BlogAdm() {
 
         const id = firebase.database().ref().child('posts').push().key
 
+        const date = new Date();
+
+        const year = date.getFullYear()
+        const month = date.getMonth() + 1
+        const day = date.getDate()
+
         firebase.database().ref('posts/' + id).set({
 
             title: formData.title,
+            id: id,
             desc: formData.desc,
             imageUrl: imageUrl,
             content: formData.content,
             author: formData.author,
-            paragraphs: paragraphs
+            authorPicture: authorPicture,
+            paragraphs: paragraphs,
+            date: `${day}/${month}/${year}`,
+            hashtags: postHashtags,
 
         }).then(() => alert("Post enviado com sucesso"));
 
@@ -176,6 +116,16 @@ export default function BlogAdm() {
             ...formData, [name]: value
 
         })
+
+    }
+
+    function setHashtag() {
+
+        const hashtag = formData.hashtag
+
+        postHashtags.push(hashtag)
+
+        window.alert('Inserido com sucesso')
 
     }
 
@@ -218,6 +168,21 @@ export default function BlogAdm() {
             .then(snapshot => {
                 snapshot.ref.getDownloadURL()
                     .then(url => setImageUrl(url))
+            });
+
+    }
+
+    function uploadPicture(event) {
+
+        const file = event.target.files[0]
+
+        var storageRef = firebase.storage().ref();
+
+        storageRef.child('pictures/' + file.name.trim())
+            .put(file)
+            .then(snapshot => {
+                snapshot.ref.getDownloadURL()
+                    .then(url => setAuthorPicture(url))
             });
 
     }
@@ -269,6 +234,15 @@ export default function BlogAdm() {
                                 placeholder='Imagem'
                             />
 
+                            <label htmlFor='authorPicture'>
+                                Foto do autor</label>
+                            <input
+                                type='file'
+                                onChange={uploadPicture}
+                                accept="image/png, image/jpeg"
+                                placeholder='Foto do autor'
+                            />
+
                             <label htmlFor='author'>
                                 Nome do autor</label>
                             <input
@@ -277,6 +251,39 @@ export default function BlogAdm() {
                                 id='author'
                                 onChange={handleInputChange}
                             />
+
+                            <label htmlFor='hashtags'>
+                                Hashtags</label>
+                            <input
+                                type='text'
+                                name='hashtag'
+                                id='hashtag'
+                                onChange={handleInputChange}
+                            />
+
+                            <a className="btnAddHashtag" onClick={() => setHashtag()}>Inserir hashtag</a>
+
+                            <div className="createdHashtags">
+
+                                {postHashtags ? (
+
+                                    postHashtags.map((item) => {
+
+                                        return(
+
+                                            <h4>{item}</h4>
+
+                                        )
+
+                                    })
+
+                                ) : (
+
+                                    <h4>aa</h4>
+
+                                )}
+
+                            </div>
 
                             <label htmlFor='content'>Conteúdo</label>
                             <textarea

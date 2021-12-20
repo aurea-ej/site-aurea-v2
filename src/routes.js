@@ -14,6 +14,7 @@ import Members from './pages/members'
 import BlogAdm from './pages/blogAdmin'
 import Blog from './pages/blog'
 import PS from './pages/PS'
+import SinglePostBlog from './pages/singlePostBlog'
 
 const Routes = () => {
 
@@ -34,6 +35,7 @@ const Routes = () => {
             <Route component={BlogAdm} path='/Blog-Aurea-Admin'/>
             <Route component={Blog} path='/Blog'/>
             <Route component={PS} path='/Processo-Seletivo'/>
+            <Route component={SinglePostBlog} path='/post/:idPost' />
 
         </BrowserRouter>
 

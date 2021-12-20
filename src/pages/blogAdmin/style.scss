@@ -117,6 +117,39 @@
 
                 }
 
+                .btnAddHashtag {
+                    
+                    display: flex;
+                    margin-top: 1rem;
+                    background-color: $amarelo;
+                    color: $roxo;
+                    padding: 5px 10px;
+                    border-radius: 3px;
+                    font-weight: 700;
+                    cursor: pointer;
+
+                }
+
+                .createdHashtags {
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 90%;
+                    margin-top: 1rem;
+
+                    h4 {
+
+                        background-color: $roxo;
+                        color: $amarelo;
+                        font-weight: 700;
+                        margin: 3px 5px;
+                        padding: 1px 15px;
+                        border-radius: 4px;
+
+                    }
+
+                }
+
                 textarea {
 
                     height: 500px;

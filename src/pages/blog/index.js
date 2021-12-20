@@ -1,4 +1,6 @@
-import { React, useEffect, useState } from 'react'
+import { React, useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 
@@ -7,11 +9,9 @@ import "firebase/compat/firestore";
 import "firebase/compat/database";
 import firebaseConfig from '../../FirebaseConfig.js'
 
-import aviaoAureaVertical from '../../imgs/aviaoAurea.png'
-
 import './style.scss';
 
-export default function InfoCourses() {
+export default function Blog() {
 
     useEffect(() => {
 
@@ -24,11 +24,11 @@ export default function InfoCourses() {
 
     useEffect(() => {
 
-        if(!firebase.apps.length)
+        if (!firebase.apps.length)
             firebase.initializeApp(firebaseConfig);
 
-            var firebaseRef = firebase.database().ref('posts/');
-            firebaseRef.on('value', (snapshot) => {
+        var firebaseRef = firebase.database().ref('posts/');
+        firebaseRef.on('value', (snapshot) => {
 
             if (snapshot.exists()) {
 
@@ -56,42 +56,106 @@ export default function InfoCourses() {
 
             <main id='mainBlog'>
 
-                <h1>Bem-vindos ao Blog Aureano 💛 </h1> <h3>v0.3 Beta</h3>
+                <h1>Bem-vindos ao Blog Aureano 💛 </h1>
 
-                {dataBlog.map((item)=> (
+                <div className="cardsWrapper">
 
-                    <div className='postDiv' >
+                    {dataBlog.map((item) => {
 
-                        <h3>{item.title}</h3>
-                        <h5>{item.desc}</h5>
-                        <img src={item.imageUrl} />
+                        return (
 
-                        <div className="paragraphPost">
-                            {
-                                Array(item.paragraphs).map((item)=>(
+                            <Link key={dataBlog.id} to={`/post/${item.id}`} className="blogCard">
 
-                                    <div style={{width: "100%"}}>
-                                        <p>{item}</p>
+                                <div className="thumbWrapper">
+
+                                    <img draggable="false" src={item.imageUrl} alt="imagem do post" />
+
+                                </div>
+
+                                <div className="postInfos">
+
+                                    <h2>{item.title}</h2>
+
+                                    <div className="autorInfos">
+
+                                        {item.authorPicture !== undefined ? (
+
+                                            <div className="pictureWrapper">
+
+                                                <img draggable="false" src={item.authorPicture} alt="foto do autor" />
+
+                                            </div>
+
+                                        ) : (
+                                        
+                                            <p></p>
+                                        
+                                        )}
+
+                                        <h4>{item.author}</h4>
+
                                     </div>
 
-                                ))
-                            }
-                        </div>
+                                    <p>{item.desc}</p>
 
-                        {/* <p>{item.content}</p> */}
-                        <div className='postAuthor' >
-                            <span>Escrito por: {item.author}</span>
-                        </div>
+                                    <div className="hashtags">
 
-                    </div>
+                                        {item.hashtags ? (
 
-                ))}
+                                            item.hashtags.map((hashtag => {
+
+                                                return (
+
+                                                    <span>{hashtag}</span>
+
+                                                )
+
+                                            }))
+
+
+                                        )
+
+                                            :
+
+                                            (
+
+                                                <p></p>
+
+                                            )
+                                        }
+
+                                    </div>
+
+                                    <div className="dateWrapper">
+
+                                        {item.date !== undefined ?
+
+                                            <h5>Postado em {item.date}</h5>
+
+                                            :
+
+                                            <h5></h5>
+
+                                        }
+
+                                    </div>
+
+                                </div>
+
+                            </Link>
+
+                        )
+
+                    })}
+
+                </div>
 
             </main>
-            
+
             <Footer />
 
         </section>
+
     )
 
 }
