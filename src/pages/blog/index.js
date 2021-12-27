@@ -68,7 +68,7 @@ export default function Blog() {
 
                                 <div className="thumbWrapper">
 
-                                    <img draggable="false" src={item.imageUrl} alt="imagem do post" />
+                                    <img draggable="false" src={item.imageUrl} alt="" />
 
                                 </div>
 
