@@ -253,7 +253,7 @@ export default function BlogAdm() {
                             />
 
                             <label htmlFor='hashtags'>
-                                Hashtags</label>
+                                Hashtags/assuntos-chave</label>
                             <input
                                 type='text'
                                 name='hashtag'
