@@ -211,6 +211,25 @@ main {
 
             }
 
+            a {
+
+              margin-top: 2rem;
+              padding: 1rem 2rem;
+              border-radius: 5px;
+              background-color: $roxo;
+              color: #fff;
+              font-weight: 700;
+              text-decoration: none;
+              transition: .2s ease-in-out;
+
+              &:hover {
+
+                background-color: #4d037e;
+
+              }
+
+            }
+
         }
 
     }

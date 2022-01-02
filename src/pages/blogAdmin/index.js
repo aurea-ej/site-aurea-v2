@@ -28,6 +28,7 @@ export default function BlogAdm() {
         content: '',
         author: '',
         hashtag: '',
+        file: '',
 
     })
 
@@ -41,6 +42,7 @@ export default function BlogAdm() {
     const [haveLogIn, setHaveLogIn] = useState(false)
     const [imageUrl, setImageUrl] = useState('')
     const [authorPicture, setAuthorPicture] = useState('')
+    const [file, setFile] = useState('')
 
     useEffect(() => {
 
@@ -103,6 +105,7 @@ export default function BlogAdm() {
             paragraphs: paragraphs,
             date: `${day}/${month}/${year}`,
             hashtags: postHashtags,
+            file: file
 
         }).then(() => alert("Post enviado com sucesso"));
 
@@ -187,6 +190,21 @@ export default function BlogAdm() {
 
     }
 
+    function uploadFile(event) {
+
+        const file = event.target.files[0]
+
+        var storageRef = firebase.storage().ref();
+
+        storageRef.child('files/' + file.name.trim())
+            .put(file)
+            .then(snapshot => {
+                snapshot.ref.getDownloadURL()
+                    .then(url => setFile(url))
+            });
+
+    }
+
     if (haveLogIn) {
 
         return (
@@ -225,6 +243,15 @@ export default function BlogAdm() {
                                 onChange={handleInputChange}
                             />
 
+                            <label htmlFor='author'>
+                                Nome do autor</label>
+                            <input
+                                type='text'
+                                name='author'
+                                id='author'
+                                onChange={handleInputChange}
+                            />
+
                             <label htmlFor='imageUrl'>
                                 Url da imagem</label>
                             <input
@@ -243,13 +270,14 @@ export default function BlogAdm() {
                                 placeholder='Foto do autor'
                             />
 
-                            <label htmlFor='author'>
-                                Nome do autor</label>
+                            <label htmlFor='files'>
+                                Inserir arquivo PDF/Imagem para download (o botão para download ficará no final do texto)</label>
                             <input
-                                type='text'
-                                name='author'
-                                id='author'
-                                onChange={handleInputChange}
+                                type='file'
+                                name='files'
+                                id='files'
+                                accept="image/png, image/jpeg, application/pdf"
+                                onChange={uploadFile}
                             />
 
                             <label htmlFor='hashtags'>

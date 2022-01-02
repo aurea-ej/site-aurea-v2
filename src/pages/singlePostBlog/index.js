@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 import firebase from 'firebase/compat/app';
 import "firebase/compat/firestore";
@@ -167,6 +168,16 @@ export default function SinglePost() {
                         }
 
                     </div>
+
+                    {dataPost.file ? (
+
+                        <a href={dataPost.file} target="_blank">Acessar arquivo disponibilizado</a>
+
+                    ) : (
+
+                        <p></p>
+
+                    )}
 
                 </div>
 
