@@ -34,7 +34,7 @@ const Routes = () => {
             <Route component={Members} path='/membros'/>
             <Route component={BlogAdm} path='/Blog-Aurea-Admin'/>
             <Route component={Blog} path='/Blog'/>
-            <Route component={PS} path='/Processo-Seletivo'/>
+            {/* <Route component={PS} path='/Processo-Seletivo'/> */}
             <Route component={SinglePostBlog} path='/post/:idPost' />
 
         </BrowserRouter>
