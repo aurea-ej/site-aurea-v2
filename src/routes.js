@@ -13,7 +13,7 @@ import Negocios from './pages/services/negocios'
 import Members from './pages/members'
 import BlogAdm from './pages/blogAdmin'
 import Blog from './pages/blog'
-/*import PS from './pages/PS'*/
+import PS from './pages/PS'
 import SinglePostBlog from './pages/singlePostBlog'
 
 const Routes = () => {
