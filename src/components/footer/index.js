@@ -33,7 +33,7 @@ export default function Footer (props) {
 
                         <p>Endereço: R. Dr. Siqueira, 273 - Parque Dom Bosco, Campos dos Goytacazes - RJ, 28030-130 <br/> IFF Sala G-02</p>    
 
-                        <p>Whatsapp: (21) 99015-7124</p>
+                        <p>Whatsapp: (22) 99815-7124</p>
 
                         <p>CNPJ: 27.447.124/0001-76</p>
 
