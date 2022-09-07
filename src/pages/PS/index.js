@@ -1,12 +1,14 @@
 import { React } from 'react';
 import { Link } from "react-router-dom";
 
-import Show from '../../imgs/show.jpg'
-import RockInAurea from '../../imgs/rockInAurea.png'
+import chute from '../../imgs/videoChute.mp4' //imagem de fundo
+import AureaWorldCup from '../../imgs/AureaWorldCup.png'
+//import PSPhases from '../../imgs/AureaWorldCupTabela.png'
 import ArrowDown from '../../imgs/arrow.svg'
-import Guitarrista from '../../imgs/guitarist.jpg'
-import Mão from '../../imgs/hand.png'
+import Campo from '../../imgs/campo.jpg'
+import AureaBall from '../../imgs/AureaBall.png'
 import videoAstronauta from '../../imgs/videoAstronauta.mp4'
+import sendBackHome from '../../imgs/SetaVoltar.png'
 
 import './style.scss'
 
@@ -20,23 +22,28 @@ function PS() {
 
                 <div className="heroWrapperPS">
 
+                    <video autoplay="true" loop muted src={chute} className="backgroundPS"/>
+
                     <div className="logoPSWrapper">
 
-                        <img className="rockInAurea" draggable="false" src={RockInAurea} alt=""/>
-                        <h1>Agora o palco é seu!</h1>
-                        <h4>Processo seletivo 2021.2</h4>
+                        <img className="AureaWorldCup" draggable="false" src={AureaWorldCup} alt=""/>
+                    
+                    </div>
 
+                    <div className="textHome">
+                    
+                        <h1>Venha fazer parte da seleção Aureana!</h1>
+                        <h4>Processo seletivo 2022.2</h4>
+                    
                         <a href="#PSInfosSection"><img src={ArrowDown} alt="Ver informações" /></a>
 
                     </div>
 
-                    <img className="backgroundPS" src={Show} alt=""/>
+                </div>
 
-                    <div className="sendBackHome">
+                <div className="sendBackHome">
 
-                        <Link to="/">Voltar para o início</Link>
-
-                    </div>
+                    <Link to="/"><img className="sendBackHome" draggable="false" src={sendBackHome} alt=""/></Link>
 
                 </div>
 
@@ -46,9 +53,9 @@ function PS() {
 
                 <div className="introPSInfos">
 
-                    <h1>Sua hora de brilhar chegou!</h1>
+                    <h1>Sua hora entrar em campo chegou!</h1>
 
-                    <p>Pega sua guitarra, prepara a jaqueta de couro e tira a poeira daquele coturno jogado no canto do seu quarto porque hoje é dia de rock, bebê! A line-up já está confirmada e os ingressos já estão à venda! Chegou sua hora de subir ao palco e dar início à sua carreira de sucesso. Está aberto o Processo Seletivo 2021.2 da Aurea Soluções e Projetos, o <strong>Rock in Aurea!</strong></p>
+                    <p><strong>Now is All</strong>, quando os pulsos aceleram e todas as emoções e experiências que levaram ao agora se conectam! Chegou o momento de preparar o seu time e entrar em campo! Está aberto o PROCESSO SELETIVO 2022.2 da Aurea Soluções e Projetos, <strong>Aurea World Cup</strong>. Venha fazer parte da <strong>Seleção Aureana!</strong> Juntos somos um só.</p>
 
                     <p>A Aurea é uma empresa júnior do Instituto Federal Fluminense - campus Campos Centro. Fundada no ano de 2016, iniciamos nossos primeiros passos como empresa referência da região Norte Fluminense. Oferecendo serviços na área de <strong>Arquitetura e Urbanismo, Engenharia de Computação, Engenharia de Controle e Automação e Engenharia Elétrica</strong>, passamos a amadurecer como empresa, e alcançamos a tão sonhada federação no ano de 2018, sendo reconhecida pelo Movimento Empresa Júnior (MEJ) como uma Empresa Júnior. Nossa excelência, esforço e dedicação em projetos nos retornou diversas premiações, reconhecendo a Aurea como uma empresa "Bi impacto", o que significa que fomos capazes de bater todas nossas metas anuais por dois anos consecutivos. Atualmente, estamos em busca do tão sonhado "Tri-impacto".</p>
 
@@ -60,6 +67,8 @@ function PS() {
 
                     <h2>Etapas</h2>
 
+                    {/*<img className="PSPhases" draggable="false" src={PSPhases} alt=""/>*/}
+
                     <div className="PSStoryline">
 
                         <div className="storyline" />
@@ -68,20 +77,20 @@ function PS() {
 
                             <h3>Lançamento do edital e inscrições</h3>
 
-                            <h4>14/10 a 01/11</h4>
+                            <h4>19/09/22 a 03/10/22</h4>
 
                             <p>
 
-                                Para o início do seu estrelato, você precisa fazer sua inscrição através do
+                                Para entrar em campo, você precisa fazer sua inscrição através do
 
                                 <a
                                     target="_blank"
-                                    href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform" rel="noreferrer"> Formulário de inscrição
-                                </a> do Processo Seletivo 2021.2. Lembre-se de ler o
+                                    href="https://forms.gle/zgdoSnofaPNxKNjUA" rel="noreferrer"> Formulário de inscrição
+                                </a> do Processo Seletivo 2022.2. Lembre-se de ler o
 
                                 <a
                                     target="_blank"
-                                    href="https://www.google.com/url?q=http://bit.ly/RockInAurea20212&sa=D&source=editors&ust=1634351367079000&usg=AOvVaw09UH5vlIEaUM_BfXd62uMP" rel="noreferrer"> Edital
+                                    href="https://www.canva.com/design/DAFLjpNOYDk/nYINoW3PaTlJlTYFrdQ2YA/view#10" rel="noreferrer"> Edital
                                 </a> antes de realizar sua inscrição.
 
                             </p>
@@ -104,7 +113,7 @@ function PS() {
 
                             <h3>Início da marcação de entrevistas</h3>
 
-                            <h4>04/11</h4>
+                            <h4>04/10/22 a 07/10/22</h4>
 
                             <p>Após analizarmos suas informações, entraremos em contato para marcarmos a data de sua entrevista com os nossos entrevistadores.</p>
 
@@ -114,7 +123,7 @@ function PS() {
 
                             <h3>Entrevistas e dinâmica de grupo</h3>
 
-                            <h4>18/11</h4>
+                            <h4>10/10/22 a 27/10/22</h4>
 
                             <p>Nessa etapa, você participará de uma entrevista com os nossos entrevistadores. Além disso, haverá um momento de dinâmica de grupo com os outros membros inscritos. Fique tranquilo(a) quanto a isso, apenas queremos conhecer melhor suas histórias e desafios. </p>
 
@@ -136,7 +145,7 @@ function PS() {
 
                             <h3>Divulgação dos trainees selecionados</h3>
 
-                            <h4>13/12</h4>
+                            <h4>31/10/22</h4>
 
                             <p>Os da fase anterior serão informados sobre o seu desempenho, e, caso aprovados, passarão para a etapa de processo trainee.</p>
 
@@ -146,7 +155,7 @@ function PS() {
 
                             <h3>Início do processo trainee</h3>
 
-                            <h4>15/12</h4>
+                            <h4>01/11/22</h4>
 
                             <p>Como último passo antes de se tornar um Aureano, você irá passar por um processo trainee para conhecer melhor o funcionamento de nossa empresa, passando por capacitações e diversas pautas preparadas especialmente pelos nossos membros para você.</p>
 
@@ -160,7 +169,7 @@ function PS() {
 
                     </div>
 
-                    <a id="buttonRegister" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform" rel="noreferrer">Inscrever-se</a>
+                    <a id="buttonRegister" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfUq_25827tfkPhoxq_w5ypbj8B0RLLKXvRIZ8CniRZ65D68A/viewform" rel="noreferrer">Inscrever-se</a>
 
                 </section>
 
@@ -168,7 +177,7 @@ function PS() {
 
                     <div className="imgRegister">
 
-                        <img src={Guitarrista} alt="" />
+                        <img src={Campo} alt="" />
 
                         <span>Mais que uma empresa</span>
 
@@ -182,7 +191,7 @@ function PS() {
 
                         <p>A Aurea foi criada com um único objetivo: <strong>impactar!</strong> Aqui prezamos pela satisfação de nossos membros. Não formamos apenas membros preparados para o mercado de trabalho. Formamos lideranças. Formamos pessoas capazes de superar qualquer desafio independente do grau de dificuldade. E acima de tudo: <strong>formamos laços!</strong> Se engana quem pensa que a Aurea é apenas uma empresa júnior. Somos muito mais do que isso! <strong>SOMOS UMA FAMÍLIA! E chegou sua hora de fazer parte dela.</strong></p>
 
-                        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform" rel="noreferrer">Quero fazer parte!</a>
+                        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfUq_25827tfkPhoxq_w5ypbj8B0RLLKXvRIZ8CniRZ65D68A/viewform" rel="noreferrer">Quero fazer parte!</a>
 
                     </div>
 
@@ -207,7 +216,7 @@ function PS() {
                                 <span>
                                     • Estar em plena concordância com os termos do <a
                                         target="_blank"
-                                        href="https://www.google.com/url?q=http://bit.ly/RockInAurea20212&sa=D&source=editors&ust=1634351367079000&usg=AOvVaw09UH5vlIEaUM_BfXd62uMP" rel="noreferrer">Edital
+                                        href="https://www.canva.com/design/DAFLjpNOYDk/nYINoW3PaTlJlTYFrdQ2YA/view#10" rel="noreferrer">Edital
                                     </a>.
                                 </span>
                             </li>
@@ -222,11 +231,11 @@ function PS() {
 
                             <p>De acordo com dados da Brasil Júnior, confederação que rege as Empresas Juniores do Brasil, existem mais de 1400 EJs espalhadas por mais de 260 universidades que realizam mais de 40 mil projetos por ano. Somente nesse ano, o MEJ já impactou mais de R$ 55.6 milhões na economia brasileira, que são integralmente reinvestidos na educação empreendedora dos estudantes. Sua missão é formar, por meio da vivência empresarial, empreendedores comprometidos e capazes de transformar o Brasil.</p>
 
-                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScURCaHvOUlMdNrKEaik_tBvOwph2uwhu1EqKLyes3zd4FWng/viewform" rel="noreferrer">Quero me inscrever</a>
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfUq_25827tfkPhoxq_w5ypbj8B0RLLKXvRIZ8CniRZ65D68A/viewform" rel="noreferrer">Quero me inscrever</a>
 
                             <div className="imgPSWrapper">
 
-                                <img src={Mão} alt="" />
+                                <img src={AureaBall} alt="" />
 
                             </div>
 
@@ -239,7 +248,7 @@ function PS() {
                         <h1>Chegou sua hora!</h1>
 
                         <video autoplay="true" loop muted src={videoAstronauta} />
-
+                        
                     </section>
 
                 </section>

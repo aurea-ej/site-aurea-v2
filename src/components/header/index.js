@@ -59,7 +59,7 @@ export default function Header(props) {
                         <ul>
 
                             <li> <Link onClick={scrollToTop} to='/' > Início </Link> </li>
-                            {/* <li> <Link onClick={scrollToTop} to='/Processo-Seletivo' > Processo Seletivo 2021.2 </Link> </li> */}
+                            <li> <Link onClick={scrollToTop} to='/Processo-Seletivo' > Processo Seletivo 2022.2 </Link> </li>{/* Remover no final do PS */}
                             <li> <Link onClick={scrollToTop} to='/Quem-somos-nos'> Quem Somos </Link> </li>
                             <li> <Link onClick={scrollToTop} to='/Servicos'> Serviços </Link> </li>
                             <li> <Link onClick={scrollToTop} to='/Contato'> Contato </Link> </li>
@@ -96,7 +96,7 @@ export default function Header(props) {
                     <ul>
 
                         <a href="/"> Início </a>
-                        {/* <a href="/Processo-Seletivo"> Processo Seletivo 2021.2 </a> */}
+                        <a href="/Processo-Seletivo"> Processo Seletivo 2022.2 </a> {/* Remover no final do PS */}
                         <a href="/Quem-somos-nos"> Quem Somos </a>
                         <a href="/Servicos"> Serviços </a>
                         <a href="/Contato"> Contato </a>
