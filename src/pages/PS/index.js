@@ -53,7 +53,7 @@ function PS() {
 
                 <div className="introPSInfos">
 
-                    <h1>Sua hora entrar em campo chegou!</h1>
+                    <h1>Sua hora de entrar em campo chegou!</h1>
 
                     <p><strong>Now is All</strong>, quando os pulsos aceleram e todas as emoções e experiências que levaram ao agora se conectam! Chegou o momento de preparar o seu time e entrar em campo! Está aberto o PROCESSO SELETIVO 2022.2 da Aurea Soluções e Projetos, <strong>Aurea World Cup</strong>. Venha fazer parte da <strong>Seleção Aureana!</strong> Juntos somos um só.</p>
 
