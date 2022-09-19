@@ -26,13 +26,24 @@
         height: 45vh;
         position: relative;
 
-        #guitarist {
+        #ball {
 
             position: absolute;
             display: flex;
-            width: 60%;
-            top: -30%;
-            left: -25%;
+            width: 50%;
+            bottom: 00%;
+            left: -20%;
+            z-index: 2;
+
+        }
+
+        #album {
+
+            position: absolute;
+            display: flex;
+            width: 25%;
+            bottom: 00%;
+            right: 00%;
             z-index: 2;
 
         }
@@ -76,34 +87,59 @@
             .imgPSWrapper {
 
                 display: flex;
-                width: 100%;
-                height: 130px;
+                width: 70%;
+                height: 70%;
                 justify-content: flex-end;
                 margin-right: 3rem;
                 position: relative;
+                flex-direction: row;
 
                 img {
 
                     position: absolute;
                     display: flex;
-                    width: 70%;
+                    top: 15%;
+                    right: 5%;
+                    width: 40%;
+                     
 
+                }
+
+                h1 {
+
+                    display: flex;
+                    transform: rotate(-2deg);
+                    font-family: 'Ranger Layerform', 'Bebas Neue' ;
+                    text-transform: uppercase;
+                    color: $vinhoCopa;
+                    font-weight: 100;
+                    position: relative;
+                    width: 100%;
+                    align-items: center;
+                    top: 10%;
+                    left: 10%;
+                    
+                    z-index: 2;
+                    
+    
+                    text-shadow: 0 1px 0 #ccc,
+                    0 2px 0 #c9c9c9,
+                    0 3px 0 #bbb,
+                    0 4px 0 #b9b9b9,
+                    0 5px 0 #aaa,
+                    0 6px 1px rgba(0,0,0,.1),
+                    0 0 5px rgba(0,0,0,.1),
+                    0 1px 3px rgba(0,0,0,.3),
+                    0 3px 5px rgba(0,0,0,.2),
+                    0 5px 10px rgba(0,0,0,.25),
+                    0 10px 10px rgba(0,0,0,.2),
+                    0 20px 20px rgba(0,0,0,.15);
+    
                 }
                 
             }
 
-            h1 {
-
-                display: flex;
-                transform: rotate(-2deg);
-                font-family: 'Ranger Layerform', 'Bebas Neue' ;
-                text-transform: uppercase;
-                color: $roxo;
-                font-weight: 500;
-                z-index: 2;
-                margin-right: 2.5rem;
-
-            }
+           
 
             .buttonInfo {
 
@@ -188,7 +224,7 @@
 
 }
 
-@media screen and (max-width: 1260px) {
+@media only screen and (min-width: 2300px) {
 
     .screenWrapper {
 
@@ -196,11 +232,19 @@
 
             height: 52vh;
 
-            #guitarist {
+            #ball {
 
-                width: 90%;
-                left: -40%;
-                top: -35%;
+                width: 60%;
+                bottom: -5%;
+                left: -25%;
+
+            }
+
+            #album {
+
+                width: 30%;
+                bottom: 00%;
+                right: 00%;
 
             }
 
@@ -208,7 +252,263 @@
 
                 .imgPSWrapper {
 
-                    height: 100px;
+                    width: 70%;
+                    height: 55%;
+                    
+                    img {
+ 
+                        width: 43%;
+                        right: 15%;
+                        
+                    }
+    
+                    h1 {
+
+                        top: 20%;
+                        left: -15%;
+                        font-size: 3.5rem;
+        
+                    }
+
+                }
+
+                .buttonInfo {
+
+                    width: 65%;
+                    bottom: -20%;
+                    margin-right: 22rem;
+    
+                }
+
+            }
+
+        }
+    
+    }
+
+}
+
+
+@media screen and (max-width: 1080px) {
+
+    .screenWrapper {
+
+        .popup {
+
+            height: 52vh;
+
+            #ball {
+
+                width: 60%;
+                bottom: -5%;
+                left: -30%;
+
+            }
+
+            #album {
+
+                width: 40%;
+                bottom: 00%;
+                right: 00%;
+
+            }
+
+            .infoPopup {
+
+                .imgPSWrapper {
+
+                    width: 60%;
+                    height: 55%;
+                    
+                    img {
+ 
+                        width: 55%;
+                        
+                    }
+    
+                    h1 {
+
+                        top: 4%;
+                        left: -8%;
+                        font-size: 1.5rem;
+        
+                    }
+
+                }
+
+            }
+
+        }
+    
+    }
+
+}
+
+
+@media screen and (max-width: 1030px) {
+
+    .screenWrapper {
+
+        .popup {
+
+            height: 52vh;
+
+            #ball {
+
+                width: 70%;
+                bottom: -3%;
+                left: -30%;
+
+            }
+
+            #album {
+
+                width: 40%;
+                bottom: 00%;
+                right: 00%;
+
+            }
+
+            .infoPopup {
+
+                .imgPSWrapper {
+
+                    width: 100%;
+                    height: 55%;
+                    
+                    img {
+ 
+                        width: 55%;
+                        right: -5%;
+                        
+                    }
+    
+                    h1 {
+
+                        top: 2%;
+                        left: 5%;
+                        font-size: 2rem;
+        
+                    }
+
+                }
+
+                .buttonInfo {
+
+                    bottom: -15%;
+    
+                }
+
+            }
+
+        }
+    
+    }
+
+}
+
+
+@media screen and (max-width: 880px) {
+
+    .screenWrapper {
+
+        .popup {
+
+            height: 52vh;
+
+            #ball {
+
+                width: 60%;
+                bottom: -5%;
+                left: -30%;
+
+            }
+
+            #album {
+
+                width: 40%;
+                bottom: 00%;
+                right: 00%;
+
+            }
+
+            .infoPopup {
+
+                .imgPSWrapper {
+
+                    width: 60%;
+                    height: 60%;
+                    
+                    img {
+ 
+                        width: 70%;
+                        right: -2%;
+                        
+                    }
+    
+                    h1 {
+
+                        top: 4%;
+                        left: -30%;
+                        font-size: 1.5rem;
+        
+                    }
+
+                }
+
+            }
+
+        }
+    
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+
+    .screenWrapper {
+
+        .popup {
+
+            height: 52vh;
+
+            #ball {
+
+                width: 85%;
+                bottom: -5%;
+                left: -30%;
+
+            }
+
+            #album {
+
+                width: 40%;
+                bottom: 00%;
+                right: 00%;
+
+            }
+
+            .infoPopup {
+
+                .imgPSWrapper {
+
+                    width: 100%;
+                    height: 60%;
+                    
+                    img {
+ 
+                        width: 60%;
+                        right: -10%;
+                        
+                    }
+    
+                    h1 {
+
+                        top: 1%;
+                        left: 5%;
+                        font-size: 2rem;
+        
+                    }
 
                 }
 
@@ -229,11 +529,19 @@
             width: 70vw;
             height: 55vh;
 
-            #guitarist {
+            #ball {
 
-                width: 100%;
-                top: -25%;
-                left: -30%;
+                width: 90%;
+                bottom: -5%;
+                left: -40%;
+
+            }
+
+            #album {
+
+                width: 50%;
+                bottom: 00%;
+                right: 00%;
 
             }
 
@@ -242,28 +550,31 @@
                 align-items: center;
                 width: 60vw;
             
-            .imgPSWrapper {
+                .imgPSWrapper {
 
-                margin-top: 3rem;                
+                    width: 60%;
+                    height: 60%;
+                    
+                    img {
+ 
+                        width: 70%;
+                        right: -30%;
+                        
+                    }
+    
+                    h1 {
 
-                img {
-
-                    width: 100%;
+                        top: -3%;
+                        left: -20%;
+                        font-size: 2rem;
+        
+                    }
 
                 }
-                
-            }
-
-            h1 {
-
-                margin-top: 1rem;
-                margin-right: 1rem;
-
-            }
 
             .buttonInfo {
 
-                width: 90%;
+                width: 65%;
                 margin-right: 1rem;
 
             }
@@ -276,3 +587,148 @@
     }
 
 }
+
+@media screen and (max-width: 600px) {
+
+    .screenWrapper {
+
+        .popup {
+
+            width: 70vw;
+            height: 55vh;
+
+            #ball {
+
+                width: 90%;
+                bottom: -3%;
+                left: -35%;
+
+            }
+
+            #album {
+
+                width: 60%;
+                bottom: 00%;
+                right: 00%;
+
+            }
+
+            .infoPopup {
+
+                align-items: center;
+                width: 60vw;
+            
+                .imgPSWrapper {
+
+                    width: 60%;
+                    height: 60%;
+                    
+                    img {
+ 
+                        width: 80%;
+                        right: -35%;
+                        
+                    }
+    
+                    h1 {
+
+                        top: -10%;
+                        left: -20%;
+                        font-size: 1.3rem;
+        
+                    }
+
+                }
+
+                .buttonInfo {
+
+                    width: 65%;
+                    bottom: -5%;
+                    margin-right: 1rem;
+
+                }
+
+            }
+
+        }
+    
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    .screenWrapper {
+
+        .popup {
+
+            width: 70vw;
+            height: 55vh;
+
+            #ball {
+
+                width: 90%;
+                bottom: -3%;
+                left: -35%;
+
+            }
+
+            #album {
+
+                width: 60%;
+                bottom: 00%;
+                right: 00%;
+
+            }
+
+            .infoPopup {
+
+                align-items: center;
+                width: 60vw;
+            
+                .imgPSWrapper {
+
+                    width: 90%;
+                    height: 60%;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                    img {
+ 
+                        align-items: center;
+                        width: 70%;
+                        right: 8%;
+                        
+                    }
+    
+                    h1 {
+
+                        top: 2%;
+                        left: 0%;
+                        font-size: 1.1rem;
+                        left: -10%;
+                        justify-content: right;
+                        text-align: center;
+                        
+                    }
+
+                }
+
+                .buttonInfo {
+
+                    width: 70%;
+                    height: 15%;
+                    bottom: -5%;
+                    margin-right: 1rem;
+                    font-size: 0.8rem;
+
+                }
+
+            }
+
+        }
+    
+    }
+
+}
+

@@ -23,7 +23,7 @@
     #heroSectionPS {
 
         .heroWrapperPS {
-
+            
             display: flex;
             width: 100vw;
             height: auto;
@@ -39,27 +39,45 @@
                 z-index: 2;
                 align-items: center;
                 justify-content: center;
-                top: -25vh;
+                top: 3vh;
                 user-select: none;
 
                 img {
                     
                     display: flex;
-                    width: 40%;
+                    width: 25%;
 
                 }
+            }
+
+            .textHome {
+
+                display: flex;
+                width: 100vw;
+                height: 100vh;
+                position: absolute;
+                z-index: 2;
+                align-items: center;
+                justify-content: center;
+                top: 00vh;
+                user-select: none;
+                
 
                 h1 {
 
                     position: absolute;
-                    // font-family: 'Kaushan Script', cursive;
+                    //font-family: 'Kaushan Script', cursive;
                     font-family: 'Bebas Neue', cursive;
-                    // font-family: 'Eighty Seven';
-                    font-size: 4rem;
+                    //font-family: 'Eighty Seven';
+                    font-size: 5rem;
                     letter-spacing: 3px;
-                    color: $branco;
+                    color: $vinhoCopa;
                     cursor: default;
-                    top: 55%;
+                    bottom: 32%;
+                    text-align: center;
+                    -webkit-text-stroke-width: 0.1px;
+                    -webkit-text-stroke-color: $branco;
+                    
 
                 }
 
@@ -67,9 +85,10 @@
 
                     position: absolute;
                     font-family: 'Bebas Neue', cursive;
-                    letter-spacing: 3px;
+                    letter-spacing: 5px;
                     color: $branco;
                     cursor: default;
+                    text-align: center;
                     bottom: 10%;
 
                 }
@@ -109,7 +128,6 @@
                 height: 100vh;
                 position: relative;
                 object-fit: cover;
-
             }
 
         }
@@ -117,18 +135,23 @@
         .sendBackHome {
 
             position: absolute;
-            top: 90%;
-            right: 2%;
+            top: 5%;
+            left: 2%;
+            width: 15%;
             z-index: 2;
-        
-            a {
-        
-                text-decoration: none;
-                color: $branco;
-                text-transform: uppercase;
-                z-index: 99999;
-        
+            padding: .1rem .2rem;
+            border-radius: 10px;
+
+            img{
+                &:hover {
+
+                    background-color: $roxo;
+                    color: $branco;
+                    transition: all .3s;
+    
+                }
             }
+            
             
         }
 
@@ -263,7 +286,7 @@
                     a {
 
                         text-decoration: none;
-                        color: $roxo;
+                        color: $vinhoCopa;
                         font-weight: 700;
 
                     }
@@ -602,25 +625,49 @@
 
                 .logoPSWrapper {
 
-                    bottom: 0;
+                    display: flex;
+                    width: auto;
+                    height: auto;
+                    position: absolute;
+                    z-index: 2;
+                    align-items: center;
+                    justify-content: center;
+                    top: 10vh;
+                    user-select: none;
 
                     img {
 
-                        width: 100%;
+                        width: 40%;
 
                     }
+                    
+                }
+                
+                .textHome {
+
+                    display: flex;
+                    width: 96vw;
+                    height: 100vh;
+                    position: absolute;
+                    z-index: 2;
+                    align-items: center;
+                    justify-content: center;
+                    top: 00vh;
+                    user-select: none;
 
                     h1 {
 
-                  
-                        font-size: 2.5rem;
+                        bottom: 20%;
+                        font-size: 3.5rem;
+                        text-align: center;
 
                     }
 
                     h4 {
 
-                        font-size: 150%;
-                        bottom: 15%;
+                        font-size: 85%;
+                        bottom: 7%;
+                        text-align: center;
 
                     }
 
@@ -640,8 +687,14 @@
 
             .sendBackHome {
 
-                top: 85%;
-                right: 25%;
+                top: 2%;
+                right: 0%;
+                
+                img {
+
+                    width: 45%;
+                    
+                }
                 
             }
 
@@ -661,7 +714,7 @@
 
                 p {
 
-                    text-align: left;
+                    text-align: justify;
                     text-indent: 2em;
 
                 }
