@@ -569,6 +569,7 @@
 
                     display: flex;
                     height: 100%;
+                    width: 100%;
                     position: absolute;
                     justify-content: center;
                     
@@ -660,6 +661,8 @@
                         bottom: 20%;
                         font-size: 3.5rem;
                         text-align: center;
+                        -webkit-text-stroke-width: 1px;
+                        -webkit-text-stroke-color: $branco;
 
                     }
 
@@ -941,9 +944,17 @@
                     .imgPSWrapper {
 
                         display: flex;
-                        height: 100%;
+                        height:  auto;
+                        width: 100%;
                         position: absolute;
+                        justify-content: center;
+                        
+                        img {
         
+                            width: 100%;
+                            opacity: .4;
+        
+                        }
                     }
 
                 }
