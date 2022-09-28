@@ -206,7 +206,7 @@ function PS() {
                         <ul>
 
                             <li><span>• Estar regularmente matriculado nos seguintes cursos do Instituto Federal Fluminense - Campus Campos Centro: Arquitetura e Urbanismo, Engenharia de Computação,
-                                Engenharia de Controle e Automação e Engenharia Elétrica;</span></li>
+                                Engenharia de Controle e Automação, Engenharia Mecânica e Engenharia Elétrica;</span></li>
 
                             <li><span>• Ter disponibilidade de (no mínimo) 8 horas semanais para dedicar à Aurea (sendo estas distribuídas na execução de projetos, treinamentos, reuniões, atividades da empresa, entre outros);</span></li>
 
