@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import WhatsappButton from "../../components/whatsappButton"
-import Poupup from "../../components/popup" /* Remover no final do PS */
+/*import Poupup from "../../components/popup"  Sempre remover no final do PS */
 
 import Astronauta1 from '../../imgs/Astronauta4.png'
 import astronauta from '../../imgs/astronauta.png'
@@ -327,7 +327,7 @@ function Home() {
 
             <WhatsappButton />
 
-            <Poupup /> {/* Remover no final do PS */}
+            {/*<Poupup />  Sempre remover no final do PS */}
 
             <Footer />
 
