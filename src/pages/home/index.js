@@ -127,7 +127,7 @@ function Home() {
 
                         <h1>Acelere a realização dos seus sonhos</h1>
 
-                        <p>A Aurea é uma empresa sem fins lucrativos, composta 100% por estudantes graduandos do IFF Centro. Toda renda é reinvestida em conhecimento para nossos membros, através de cursos, equipamentos, infraestrutura e etc. Todos são voluntários e estão aqui para se desenvolver profissionalmente e realizar sonhos. Todos os nossos projetos são supervisionados por professores orientadores, que garantem a qualidade do mesmo! são 5 anos de existência realizando sonhos. E aí, o que podemos alcançar juntos?</p>
+                        <p>A Aurea é uma empresa sem fins lucrativos, composta 100% por estudantes graduandos do IFF Centro. Toda renda é reinvestida em conhecimento para nossos membros, através de cursos, equipamentos, infraestrutura e etc. Todos são voluntários e estão aqui para se desenvolver profissionalmente e realizar sonhos. Todos os nossos projetos são supervisionados por professores orientadores, que garantem a qualidade do mesmo! são 6 anos de existência realizando sonhos. E aí, o que podemos alcançar juntos?</p>
 
                     </div>
 
