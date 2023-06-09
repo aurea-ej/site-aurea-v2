@@ -58,7 +58,7 @@ function AboutUs() {
                         <h3>Missão</h3>
 
                         <div className="textBox"  >
-                            <p>A missão da Aurea é <b>formar empreendedores de impacto</b> através do jeito Aureano de ser.</p>
+                            <p>Nossa missão é <b>formar empreendedores de impacto</b> através do jeito Aureano de ser.</p>
                         </div>
 
                     </div>
@@ -67,7 +67,7 @@ function AboutUs() {
                         <h3>Visão</h3>
 
                         <div className="textBox"  >
-                            <p>A visão da Aurea até 2023 é <b>ser referência</b> em projetos de excelência que contribuam para <b>formação de líderes atuantes e conectados</b> no MEJ Fluminense.</p>
+                            <p>Nossa visão até 2025 é <b>ser o Elo</b> entre a região Norte e o Sucesso, formando, através da <b>constância de resultados</b>, os <b>líderes</b> que levarão a Aurea para o <b>Alto Impacto</b>.</p>
                         </div>
                     </div>
 
