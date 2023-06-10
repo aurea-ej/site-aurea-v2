@@ -12,11 +12,11 @@ import LuaRoxo from '../../imgs/luaRoxa.png'
 import BJ from '../../imgs/ParceirosBJ.png'
 import IFF from '../../imgs/ParceirosIFF.png'
 import RJ from '../../imgs/ParceirosRJ.png'
-import MOTIM from '../../imgs/ParceirosMotim.png'
+import VOITTO from '../../imgs/ParceirosVoitto.png'
 import logoEmbrapii from '../../imgs/Logo-embrapi-1.png'
 // import ApsisLogo from '../../imgs/apsislogo.png'
 import sicooblogo from '../../imgs/marca_sicoob_branca.png'
-import NEJ from '../../imgs/nej.png'
+import EJCM from '../../imgs/ParceirosEJCM.svg'
 
 import './style.scss'
 
@@ -234,13 +234,13 @@ function Home() {
                     <div className="partnersCards">
 
                         <div className="partnersImgWrapper">
-                            <a href='https://www.motim.me/' target='_blank' rel="noreferrer"> <img src={MOTIM} alt="Motim" /> </a>
+                            <a href='https://www.voitto.com.br/' target='_blank' rel="noreferrer"> <img src={VOITTO} alt="Voitto" /> </a>
                         </div>
 
                         <div className="partnersText">
 
-                            <h2> <a href='https://www.motim.me/' target="_blank" rel="noreferrer">Motim</a> </h2>
-                            <p> Empresa de capacitações e ensino, com foco em Excel, VBA e Power BI. </p>
+                            <h2> <a href='https://www.voitto.com.br/' target="_blank" rel="noreferrer">Voitto</a> </h2>
+                            <p> A mais completa plataforma de educação, sendo referência em empregabilidade na área da engenharia. </p>
 
                         </div>
 
@@ -249,13 +249,13 @@ function Home() {
                     <div className="partnersCards">
 
                         <div className="partnersImgWrapper">
-                            <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target='_blank' rel="noreferrer"> <img src={IFF} alt="Instituto Federal Fluminense" /> </a>
+                            <a href='https://ejcm.com.br/' target='_blank' rel="noreferrer"> <img src={EJCM} alt="EJCM" /> </a>
                         </div>
 
                         <div className="partnersText">
 
-                            <h2> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank" rel="noreferrer">Instituto Federal Fluminense</a>  </h2>
-                            <p> Universidade em que a Aurea está situada, todos os membros da Empresa estudam aqui. </p>
+                        <h2> <a href='https://ejcm.com.br/' target="_blank" rel="noreferrer">EJCM</a> </h2>
+                        <p> Há mais de 30 anos no mercado, a EJCM é uma Empresa Júnior pioneira no TI. A primeira do continente. </p>
 
                         </div>
 
@@ -290,22 +290,22 @@ function Home() {
                         </div>
 
                     </div>
-
+                    
                     <div className="partnersCards">
 
                         <div className="partnersImgWrapper">
-                            <a href='https://www.instagram.com/nejnorteflu/' target='_blank' rel="noreferrer"> <img src={NEJ} alt="Núcleo Norte Fluminense" /> </a>
+                            <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target='_blank' rel="noreferrer"> <img src={IFF} alt="Instituto Federal Fluminense" /> </a>
                         </div>
 
                         <div className="partnersText">
 
-                            <h2> <a href='https://www.instagram.com/nejnorteflu/' target="_blank" rel="noreferrer">Núcleo Norte Fluminense</a> </h2>
-                            <p> Núcleo de Empresas Juniores do Norte do estado do Rio de Janeiro </p>
+                            <h2> <a href='https://portal1.iff.edu.br/nossos-campi/campos-centro' target="_blank" rel="noreferrer">Instituto Federal Fluminense</a>  </h2>
+                            <p> Universidade em que a Aurea está situada, todos os membros da Empresa estudam aqui. </p>
 
                         </div>
 
                     </div>
-
+                    
 {/*                     <div className="partnersCards">
 
                         <div className="partnersImgWrapper">
